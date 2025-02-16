@@ -6,7 +6,7 @@ import { RxChevronRight } from "react-icons/rx";
 
 export function Layout250() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 bg-secondary_clr">
       <div className="container">
         <div className="mb-12 md:mb-18 lg:mb-20">
           <div className="max-w-lg">

@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export function Team17() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 bg-primary_clr text-secondary_clr">
       <div className="container grid grid-cols-1 items-start md:grid-flow-row md:grid-cols-2 md:gap-x-12 lg:gap-x-20">
         <div className="rb-12 mb-12 max-w-lg md:mb-18 lg:mb-20">
           <p className="mb-3 font-semibold md:mb-4">Tagline</p>
@@ -18,11 +18,11 @@ export function Team17() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum tristique.
           </p>
-          <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
+          {/* <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
             <Button title="Open positions" variant="secondary">
               Open positions
             </Button>
-          </div>
+          </div> */}
         </div>
         <div className="grid grid-cols-1 gap-y-12 md:gap-x-8 md:gap-y-16 lg:gap-x-12">
           <div className="grid auto-cols-fr grid-cols-1 items-start gap-5 sm:grid-cols-[max-content_1fr] sm:gap-x-8 sm:gap-y-4">

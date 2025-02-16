@@ -1,0 +1,13 @@
+light_clr: #e6ecf3
+secon : #f3f0e5
+thired : #e6ecf3
+fourth : #f3f0e5
+last: #043a70
+#e8e1cc
+#05498c
+
+
+
+        light_green: "#eaefeb",
+        dark_clr: "#1b4332",
+        brown_clr: "#31603a",

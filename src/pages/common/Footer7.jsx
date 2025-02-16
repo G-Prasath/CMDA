@@ -4,7 +4,7 @@ import React from "react";
 
 export function Footer7() {
   return (
-    <footer id="relume" className="px-[5%] py-12 md:py-18 lg:py-20">
+    <footer id="relume" className="px-[5%] py-12 md:py-18 lg:py-20 bg-thired_clr text-white">
       <div className="container">
         <div className="flex flex-col items-center pb-12 md:pb-18 lg:pb-20">
           <a href="#" className="mb-8">
@@ -32,7 +32,7 @@ export function Footer7() {
             </li>
           </ul>
         </div>
-        <div className="h-px w-full bg-black" />
+        <div className="h-px w-full bg-white" />
         <div className="flex flex-col-reverse items-center justify-between pb-4 pt-6 text-center text-sm md:flex-row md:pb-0 md:pt-8">
           <p className="mt-8 md:mt-0">
             © 2024 Your Company. All rights reserved.

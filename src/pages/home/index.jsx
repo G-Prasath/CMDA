@@ -27,7 +27,7 @@ export default function Page() {
       <Team17 />
       <Stats3 />
       <Testimonial5 />
-      <Layout90 />
+      {/* <Layout90 /> */}
       <Contact5 />
       <Cta7 />
       <Footer7 />

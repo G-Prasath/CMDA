@@ -9,7 +9,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        primary_clr: "#05498c",
+        secondary_clr: "#f3f0e5",
+        thired_clr: "#412f11",
+        dark_clr: "#0c000c",
+        peach: {
+          500: '#FFB07C', // Define your peach color here
+        },
+      }
+    },
   },
   plugins: [],
   presets: [require("@relume_io/relume-tailwind")],

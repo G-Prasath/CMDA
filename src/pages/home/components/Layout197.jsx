@@ -4,7 +4,7 @@ import React from "react";
 
 export function Layout197() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-20 lg:py-24">
+    <section id="relume" className="px-[5%] py-16 md:py-20 lg:py-24 bg-thired_clr text-white">
       <div className="container">
         <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:gap-x-20">
           <div className="order-2 md:order-1">

@@ -5,7 +5,7 @@ import React from "react";
 
 export function Header15() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 bg-dark_clr text-white">
       <div className="container">
         <div className="rb-12 mb-12 grid grid-cols-1 items-start gap-x-12 gap-y-5 md:mb-18 md:grid-cols-2 md:gap-y-8 lg:mb-20 lg:gap-x-20 lg:gap-y-16">
           <div>

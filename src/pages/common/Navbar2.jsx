@@ -140,69 +140,9 @@ export function Navbar2() {
             </NavLink>
           ))}
 
-          {/* <div
-            onMouseEnter={useActive.openOnDesktopDropdownMenu}
-            onMouseLeave={useActive.closeOnDesktopDropdownMenu}
-          >
-            <button
-              className="flex w-full items-center justify-center gap-4 py-3 text-center text-md lg:w-auto lg:flex-none lg:justify-start lg:gap-2 lg:px-4 lg:py-2 lg:text-base"
-              onClick={useActive.openOnMobileDropdownMenu}
-            >
-              <span>More Info</span>
-              <motion.span
-                variants={{ rotated: { rotate: 180 }, initial: { rotate: 0 } }}
-                animate={useActive.animateDropdownMenuIcon}
-                transition={{ duration: 0.3 }}
-              >
-                <RxChevronDown />
-              </motion.span>
-            </button>
-            <AnimatePresence>
-              <motion.nav
-                variants={{
-                  open: {
-                    visibility: "visible",
-                    opacity: "var(--opacity-open, 100%)",
-                    display: "block",
-                    y: 0,
-                  },
-                  close: {
-                    visibility: "hidden",
-                    opacity: "var(--opacity-close, 0)",
-                    display: "none",
-                    y: "var(--y-close, 0%)",
-                  },
-                }}
-                animate={useActive.animateDropdownMenu}
-                initial="close"
-                exit="close"
-                transition={{ duration: 0.2 }}
-                className="bg-background-primary lg:absolute lg:z-50 lg:border lg:border-border-primary lg:p-2 lg:[--y-close:25%]"
-              >
-                <Link
-                  to="#"
-                  className="block py-3 text-center lg:px-4 lg:py-2 lg:text-left"
-                >
-                  Link Five
-                </Link>
-                <Link
-                  to="#"
-                  className="block py-3 text-center lg:px-4 lg:py-2 lg:text-left"
-                >
-                  Link Six
-                </Link>
-                <Link
-                  to="#"
-                  className="block py-3 text-center lg:px-4 lg:py-2 lg:text-left"
-                >
-                  Link Seven
-                </Link>
-              </motion.nav>
-            </AnimatePresence>
-          </div> */}
         </motion.div>
         <div className="hidden justify-self-end lg:block">
-          <Button className="px-6 py-2" title="Get a Quote" size="sm">
+          <Button className="px-6 py-2 font-semibold rounded-md bg-primary_clr hover:bg-primary_clr/90" title="Get a Quote" size="sm">
             Get a Quote
           </Button>
         </div>

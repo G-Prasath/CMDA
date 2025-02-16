@@ -5,7 +5,7 @@ import React from "react";
 
 export function Header47() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 bg-primary_clr text-white">
       <div className="container">
         <div className="flex flex-col gap-5 md:flex-row md:gap-12 lg:gap-20">
           <div className="w-full max-w-lg">
@@ -20,12 +20,12 @@ export function Header47() {
               and CDC approval services. We simplify the process, ensuring you
               meet all requirements efficiently.
             </p>
-            <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
+            {/* <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
               <Button title="Get Started">Get Started</Button>
               <Button title="Learn More" variant="secondary">
                 Learn More
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

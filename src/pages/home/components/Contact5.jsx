@@ -6,7 +6,7 @@ import { BiEnvelope, BiMap, BiPhone } from "react-icons/bi";
 
 export function Contact5() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 bg-primary_clr text-white">
       <div className="container">
         <div className="grid grid-cols-1 items-start gap-y-12 md:grid-flow-row md:grid-cols-2 md:gap-x-12 lg:grid-flow-col lg:gap-x-20 lg:gap-y-16">
           <div>
@@ -39,13 +39,19 @@ export function Contact5() {
               <Label htmlFor="name" className="mb-2">
                 Name
               </Label>
-              <Input type="text" id="name" />
+              <Input type="text" id="name" className="text-primary_clr" autoComplete="off" />
             </div>
             <div className="grid w-full items-center">
               <Label htmlFor="email" className="mb-2">
                 Email
               </Label>
-              <Input type="email" id="email" />
+              <Input type="email" id="email" className="text-primary_clr" autoComplete="off" />
+            </div>
+            <div className="grid w-full items-center">
+              <Label htmlFor="email" className="mb-2">
+                Phone
+              </Label>
+              <Input type="email" id="email" className="text-primary_clr" autoComplete="off" />
             </div>
             <div className="grid w-full items-center">
               <Label htmlFor="message" className="mb-2">
@@ -54,7 +60,8 @@ export function Contact5() {
               <Textarea
                 id="message"
                 placeholder="Type your message..."
-                className="min-h-[11.25rem] overflow-auto"
+                className="min-h-[11.25rem] overflow-auto text-primary_clr"
+                autoComplete="off"
               />
             </div>
             {/* <div className="mb-3 flex items-center space-x-2 text-sm md:mb-4">
@@ -64,7 +71,7 @@ export function Contact5() {
               </Label>
             </div> */}
             <div>
-              <Button title="Submit">Submit</Button>
+              <Button title="Submit" className="bg-white text-primary_clr font-semibold rounded-md">Submit</Button>
             </div>
           </form>
         </div>
