@@ -18,9 +18,10 @@ export function Layout250() {
         </div>
         <div className="grid grid-cols-1 items-start gap-y-12 md:grid-cols-3 md:gap-x-8 md:gap-y-16 lg:gap-x-12">
           <div className="flex flex-col">
-            <div className="mb-6 md:mb-8">
+            <div className="mb-6 md:mb-8 overflow-hidden">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
+                src="https://plus.unsplash.com/premium_photo-1706559779943-fb5c25270bcc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                className="duration-300 transform hover:scale-105"
                 alt="Relume placeholder image"
               />
             </div>
@@ -32,16 +33,13 @@ export function Layout250() {
               Our guidelines ensure compliance and clarity throughout your
               project lifecycle.
             </p>
-            <div className="mt-6 flex gap-4 md:mt-8">
-              <Button iconRight={<RxChevronRight />} variant="link" size="link">
-                Learn More
-              </Button>
-            </div>
+
           </div>
           <div className="flex flex-col">
-            <div className="mb-6 md:mb-8">
+            <div className="mb-6 md:mb-8 overflow-hidden">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
+                src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=2068&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                className="duration-300 transform hover:scale-105"
                 alt="Relume placeholder image"
               />
             </div>
@@ -53,16 +51,13 @@ export function Layout250() {
               Leverage our team's experience to achieve successful project
               outcomes.
             </p>
-            <div className="mt-6 flex gap-4 md:mt-8">
-              <Button iconRight={<RxChevronRight />} variant="link" size="link">
-                Sign Up
-              </Button>
-            </div>
+
           </div>
           <div className="flex flex-col">
-            <div className="mb-6 md:mb-8">
+            <div className="mb-6 md:mb-8 overflow-hidden">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
+                src="https://plus.unsplash.com/premium_photo-1661413166847-47e3ecc668a3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                className="duration-300 transform hover:scale-105"
                 alt="Relume placeholder image"
               />
             </div>
@@ -71,11 +66,7 @@ export function Layout250() {
               reliability.
             </h3>
             <p>Join a community of satisfied clients who trust our services.</p>
-            <div className="mt-6 flex gap-4 md:mt-8">
-              <Button iconRight={<RxChevronRight />} variant="link" size="link">
-                Contact
-              </Button>
-            </div>
+
           </div>
         </div>
       </div>

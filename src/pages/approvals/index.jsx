@@ -1,27 +1,24 @@
 import React from "react";
-
-import { Header50 } from "./components/Header50";
-import { Layout1 } from "./components/Layout1";
-import { Layout240 } from "./components/Layout240";
-import { Layout1_1 } from "./components/Layout1_1";
-import { Layout27 } from "./components/Layout27";
-import { Faq8 } from "./components/Faq8";
-import { Cta7 } from "./components/Cta7";
-
-
 import { Navbar2 } from "../common/Navbar2";
+import { Header54 } from "./components/Header54";
+import { Layout1 } from "./components/Layout1";
+import { Layout250 } from "./components/Layout250";
+import { Layout523 } from "./components/Layout523";
+import { Testimonial17 } from "./components/Testimonial17";
+import { Contact11 } from "./components/Contact11";
+import { Cta7 } from "../common/Cta7";
 import { Footer7 } from "../common/Footer7";
 
 export default function Page() {
   return (
     <div>
       <Navbar2 />
-      <Header50 />
+      <Header54 />
       <Layout1 />
-      <Layout240 />
-      <Layout1_1 />
-      <Layout27 />
-      <Faq8 />
+      <Layout250 />
+      <Layout523 />
+      <Testimonial17 />
+      <Contact11 />
       <Cta7 />
       <Footer7 />
     </div>

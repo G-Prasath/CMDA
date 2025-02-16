@@ -9,18 +9,19 @@ export function Layout1() {
       <div className="container">
         <div className="grid grid-cols-1 gap-y-12 md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
           <div>
-            <p className="mb-3 font-semibold md:mb-4">Streamlined</p>
+            <p className="mb-3 font-semibold md:mb-4">Tagline</p>
             <h1 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
-              About Approvals
+              Medium length section heading goes here
             </h1>
             <p className="md:text-md">
-              Navigating the CMDA approval process can be complex, but our guide
-              simplifies each step. From initial application to final approval,
-              we ensure you have the information you need to succeed.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
+              libero vitae erat.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
-              <Button title="Contact Us" variant="secondary">
-                Contact Us
+              <Button title="Button" variant="secondary">
+                Button
               </Button>
             </div>
           </div>

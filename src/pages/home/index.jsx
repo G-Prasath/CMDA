@@ -1,4 +1,5 @@
 import React from "react";
+import { Navbar2 } from "../common/Navbar2";
 import { Header5 } from "./components/Header5";
 import { Header47 } from "./components/Header47";
 import { Layout240 } from "./components/Layout240";
@@ -9,13 +10,9 @@ import { Team17 } from "./components/Team17";
 import { Stats3 } from "./components/Stats3";
 import { Testimonial5 } from "./components/Testimonial5";
 import { Layout90 } from "./components/Layout90";
-import { Cta7 } from "./components/Cta7";
-
-
-
-import { Navbar2 } from "../common/Navbar2";
+import { Contact5 } from "./components/Contact5";
+import { Cta7 } from "../common/Cta7";
 import { Footer7 } from "../common/Footer7";
-
 
 export default function Page() {
   return (
@@ -31,6 +28,7 @@ export default function Page() {
       <Stats3 />
       <Testimonial5 />
       <Layout90 />
+      <Contact5 />
       <Cta7 />
       <Footer7 />
     </div>

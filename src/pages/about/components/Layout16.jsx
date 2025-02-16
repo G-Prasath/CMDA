@@ -1,8 +1,6 @@
 "use client";
 
-import { Button } from "@relume_io/relume-ui";
 import React from "react";
-import { RxChevronRight } from "react-icons/rx";
 
 export function Layout16() {
   return (
@@ -12,7 +10,7 @@ export function Layout16() {
           <div>
             <p className="mb-3 font-semibold md:mb-4">Innovate</p>
             <h1 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
-              Our Journey Towards Excellence in Approvals
+              Start with Journy
             </h1>
             <p className="mb-5 text-base md:mb-6 md:text-md">
               Founded with a passion for facilitating approvals, our company has
@@ -56,19 +54,6 @@ export function Layout16() {
                 <span>Your success is our top priority.</span>
               </li>
             </ul>
-            <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
-              <Button title="Learn More" variant="secondary">
-                Learn More
-              </Button>
-              <Button
-                title="Contact"
-                variant="link"
-                size="link"
-                iconRight={<RxChevronRight />}
-              >
-                Contact
-              </Button>
-            </div>
           </div>
           <div>
             <img

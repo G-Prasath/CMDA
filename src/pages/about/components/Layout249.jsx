@@ -1,8 +1,6 @@
 "use client";
 
-import { Button } from "@relume_io/relume-ui";
 import React from "react";
-import { RxChevronRight } from "react-icons/rx";
 
 export function Layout249() {
   return (
@@ -12,7 +10,7 @@ export function Layout249() {
           <div className="w-full max-w-lg">
             <p className="mb-3 font-semibold md:mb-4">Approval</p>
             <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
-              Your Trusted Partner for CMDA CDC Approval
+              What We Do ?
             </h2>
             <p className="md:text-md">
               Navigating the complexities of CMDA CDC approval can be daunting.
@@ -59,12 +57,7 @@ export function Layout249() {
             <p>We ensure that all submissions meet regulatory standards.</p>
           </div>
         </div>
-        <div className="mt-10 flex items-center gap-4 md:mt-14 lg:mt-16">
-          <Button variant="secondary">Learn More</Button>
-          <Button iconRight={<RxChevronRight />} variant="link" size="link">
-            Get Started
-          </Button>
-        </div>
+        <div className="mt-10 flex items-center gap-4 md:mt-14 lg:mt-16" />
       </div>
     </section>
   );

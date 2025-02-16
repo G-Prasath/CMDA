@@ -15,10 +15,11 @@ export function Layout240() {
         </div>
         <div className="grid grid-cols-1 items-start justify-center gap-y-12 md:grid-cols-3 md:gap-x-8 md:gap-y-16 lg:gap-x-12">
           <div className="flex w-full flex-col items-center text-center">
-            <div className="rb-6 mb-6 md:mb-8">
+            <div className="rb-6 mb-6 md:mb-8 overflow-hidden">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
+                src="https://images.unsplash.com/photo-1542435503-956c469947f6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Relume placeholder image"
+                className="duration-300 transform hover:scale-105"
               />
             </div>
             <h3 className="mb-3 text-xl font-bold md:mb-4 md:text-2xl">
@@ -29,16 +30,14 @@ export function Layout240() {
               documents.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
-              <Button iconRight={<RxChevronRight />} variant="link" size="link">
-                Learn More
-              </Button>
             </div>
           </div>
           <div className="flex w-full flex-col items-center text-center">
-            <div className="rb-6 mb-6 md:mb-8">
+            <div className="rb-6 mb-6 md:mb-8 overflow-hidden">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
+                src="https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Relume placeholder image"
+                className="duration-300 transform hover:scale-105"
               />
             </div>
             <h3 className="mb-3 text-xl font-bold md:mb-4 md:text-2xl">
@@ -49,16 +48,14 @@ export function Layout240() {
               clearance.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
-              <Button iconRight={<RxChevronRight />} variant="link" size="link">
-                Sign Up
-              </Button>
             </div>
           </div>
           <div className="flex w-full flex-col items-center text-center">
-            <div className="rb-6 mb-6 md:mb-8">
+            <div className="rb-6 mb-6 md:mb-8 overflow-hidden">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
+                src="https://images.unsplash.com/photo-1542435503-956c469947f6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Relume placeholder image"
+                className="duration-300 transform hover:scale-105"
               />
             </div>
             <h3 className="mb-3 text-xl font-bold md:mb-4 md:text-2xl">
@@ -69,9 +66,6 @@ export function Layout240() {
               clearance.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
-              <Button iconRight={<RxChevronRight />} variant="link" size="link">
-                Get Started
-              </Button>
             </div>
           </div>
         </div>

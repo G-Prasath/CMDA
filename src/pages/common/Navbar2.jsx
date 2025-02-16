@@ -1,10 +1,8 @@
-"use client";
-
 import { Button, useMediaQuery } from "@relume_io/relume-ui";
 import { AnimatePresence, motion } from "framer-motion";
 import React, { useState } from "react";
 import { RxChevronDown } from "react-icons/rx";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const useRelume = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -38,25 +36,39 @@ const useRelume = () => {
   };
 };
 
+const navbarLinks = [
+  { name: "Home", path: "/" },
+  { name: "About Us", path: "/about" },
+  { name: "Approvals", path: "/approvals" },
+  { name: "Clearance", path: "/clearance" },
+  { name: "NOC", path: "/noc" },
+  { name: "Structural Stability", path: "/structural-stability" },
+  { name: "Contact Us", path: "/contact-us" },
+];
+
 export function Navbar2() {
   const useActive = useRelume();
   return (
     <section
       id="relume"
-      className="flex w-full items-center border-b border-border-primary bg-background-primary lg:min-h-18 lg:px-[5%]"
+      className="flex w-full items-center border-b border-blue-500 bg-background-primary lg:min-h-18 lg:px-[5%] sticky top-0 z-50"
     >
       <div className="mx-auto size-full lg:grid lg:grid-cols-[0.375fr_1fr_0.375fr] lg:items-center lg:justify-between lg:gap-4">
         <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
-          <a href="#">
+          <Link to="#">
             <img
               src="https://d22po4pjz3o32e.cloudfront.net/logo-image.svg"
               alt="Logo image"
             />
-          </a>
+          </Link>
           <div className="flex items-center gap-4 lg:hidden">
             <div>
-              <Button className="w-full px-4 py-1" title="Join" size="sm">
-                Join
+              <Button
+                className="w-full px-4 py-1"
+                title="Get a Quote"
+                size="sm"
+              >
+                Get a Quote
               </Button>
             </div>
             <button
@@ -114,61 +126,21 @@ export function Navbar2() {
           transition={{ duration: 0.4 }}
           className="overflow-hidden px-[5%] text-center lg:flex lg:items-center lg:justify-center lg:px-0 lg:[--height-closed:auto] lg:[--height-open:auto]"
         >
-          <Link
-            to="/"
-            className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
-          >
-            Home
-          </Link>
-          <Link
-            to="/about"
-            className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
-          >
-            About Us
-          </Link>
+                    {navbarLinks.map((link) => (
+            <NavLink
+              key={link.name}
+              to={link.path}
+              className={({ isActive }) =>
+                isActive
+                  ? "block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2 border-2 border-b-blue-500 border-t-0 border-l-0 border-r-0 text-blue-500 rounded-sm transition duration-300 font-semibold"
+                  : "block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2 transition duration-300 hover:text-blue-500"
+              }
+            >
+              {link.name}
+            </NavLink>
+          ))}
 
-          <Link
-            to="/approvals"
-            className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
-          >
-            Approvals
-          </Link>
-
-          <Link
-            to="/noc"
-            className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
-          >
-            NOC
-          </Link>
-
-          <Link
-            to="/clearance"
-            className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
-          >
-            Clearance
-          </Link>
-
-          <Link
-            to="/structural-stability"
-            className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
-          >
-            Structural Stability
-          </Link>
-
-          <Link
-            to="/contact-us"
-            className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
-          >
-            Contact US
-          </Link>
-
-          {/* <a
-            href="#"
-            className="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
-          >
-            Our Services
-          </a>
-          <div
+          {/* <div
             onMouseEnter={useActive.openOnDesktopDropdownMenu}
             onMouseLeave={useActive.closeOnDesktopDropdownMenu}
           >
@@ -207,33 +179,31 @@ export function Navbar2() {
                 transition={{ duration: 0.2 }}
                 className="bg-background-primary lg:absolute lg:z-50 lg:border lg:border-border-primary lg:p-2 lg:[--y-close:25%]"
               >
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="block py-3 text-center lg:px-4 lg:py-2 lg:text-left"
                 >
                   Link Five
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  to="#"
                   className="block py-3 text-center lg:px-4 lg:py-2 lg:text-left"
                 >
                   Link Six
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  to="#"
                   className="block py-3 text-center lg:px-4 lg:py-2 lg:text-left"
                 >
                   Link Seven
-                </a>
+                </Link>
               </motion.nav>
             </AnimatePresence>
           </div> */}
         </motion.div>
-
-
         <div className="hidden justify-self-end lg:block">
-          <Button className="px-6 py-2" title="Join" size="sm">
-            Join
+          <Button className="px-6 py-2" title="Get a Quote" size="sm">
+            Get a Quote
           </Button>
         </div>
       </div>

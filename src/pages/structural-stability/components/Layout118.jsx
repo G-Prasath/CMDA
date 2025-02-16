@@ -9,8 +9,7 @@ export function Layout118() {
         <div className="mb-12 grid grid-cols-1 items-start justify-between gap-x-12 gap-y-5 md:mb-18 md:grid-cols-2 md:gap-x-12 md:gap-y-8 lg:mb-20 lg:gap-x-20">
           <div>
             <h3 className="text-4xl font-bold leading-[1.2] md:text-5xl lg:text-6xl">
-              Proven Success in Structural Stability: Key Statistics and Case
-              Studies
+              Soli Test Types
             </h3>
           </div>
           <div>

@@ -2,6 +2,7 @@
 
 import { Button } from "@relume_io/relume-ui";
 import React from "react";
+import { Link } from "react-router-dom";
 
 export function Header5() {
   return (
@@ -18,17 +19,17 @@ export function Header5() {
               through every step, ensuring a smooth and efficient experience.
             </p>
             <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
-              <Button title="Learn More">Learn More</Button>
-              <Button title="Contact" variant="secondary-alt">
-                Contact
-              </Button>
+              
+              {/* <Link to="contact-us" title="Contact" className="w-full md:w-auto text-white border border-white hover:bg-white hover:text-black px-6 py-3 rounded-full text-lg font-bold">
+                Contact us
+              </Link> */}
             </div>
           </div>
         </div>
       </div>
       <div className="absolute inset-0 z-0">
         <img
-          src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+          src="https://images.unsplash.com/photo-1456324504439-367cee3b3c32?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           className="size-full object-cover"
           alt="Relume placeholder image"
         />
