@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import { Button } from "@relume_io/relume-ui";
 import React from "react";
@@ -9,13 +9,13 @@ export function Header47() {
       <div className="container">
         <div className="flex flex-col gap-5 md:flex-row md:gap-12 lg:gap-20">
           <div className="w-full max-w-lg">
-            <p className="mb-3 font-semibold md:mb-4">Innovate</p>
-            <h1 className="text-6xl font-bold md:text-9xl lg:text-10xl">
+            <p className="mb-3 font-semibold md:mb-4" data-aos="zoom-in" data-aos-duration="1500">Innovate</p>
+            <p className="text-6xl font-bold md:text-9xl lg:text-10xl" data-aos="fade-right" data-aos-duration="1500">
               Your Approval Partner
-            </h1>
+            </p>
           </div>
           <div className="w-full max-w-lg">
-            <p className="md:text-md">
+            <p className="md:text-md" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
               Unlock the potential of your projects with our streamlined CMDA
               and CDC approval services. We simplify the process, ensuring you
               meet all requirements efficiently.

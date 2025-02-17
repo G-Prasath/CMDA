@@ -3,6 +3,7 @@
 import { Button } from "@relume_io/relume-ui";
 import React from "react";
 import { RxChevronRight } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 export function Contact25() {
   return (
@@ -20,13 +21,13 @@ export function Contact25() {
         <div className="grid auto-cols-fr grid-cols-1 items-center gap-x-12 gap-y-12 md:grid-cols-2 md:gap-16">
           <div className="flex flex-col items-center justify-start text-center">
             <div className="mb-6 w-full md:mb-8">
-              <a href="#" className="justify-self-end">
+              <Link to="#" className="justify-self-end">
                 <img
                   src="https://relume-assets.s3.us-east-1.amazonaws.com/placeholder-map-image.svg"
                   alt="Relume placeholder map image"
                   className="h-[320px] w-full object-cover md:h-[384px]"
                 />
-              </a>
+              </Link>
             </div>
             <h3 className="mb-3 text-2xl font-bold leading-[1.4] md:text-3xl lg:mb-4 lg:text-4xl">
               Sydney
@@ -45,13 +46,13 @@ export function Contact25() {
           </div>
           <div className="flex flex-col items-center justify-start text-center">
             <div className="mb-6 w-full md:mb-8">
-              <a href="#" className="justify-self-end">
+              <Link to="#" className="justify-self-end">
                 <img
                   src="https://relume-assets.s3.us-east-1.amazonaws.com/placeholder-map-image.svg"
                   alt="Relume placeholder map image"
                   className="h-[320px] w-full object-cover md:h-[384px]"
                 />
-              </a>
+              </Link>
             </div>
             <h3 className="mb-3 text-2xl font-bold leading-[1.4] md:text-3xl lg:mb-4 lg:text-4xl">
               New York

@@ -10,21 +10,21 @@ export function Stats3() {
       <div className="container relative z-10">
         <div className="mb-12 grid grid-cols-1 gap-y-5 md:mb-18 md:grid-cols-2 md:gap-x-12 lg:mb-20 lg:gap-x-20">
           <div>
-            <p className="mb-3 font-semibold text-text-alternative md:mb-4">
+            <p className="mb-3 font-semibold text-text-alternative md:mb-4" data-aos="fade-up" data-aos-duration="500">
               Insights
             </p>
-            <h2 className="text-5xl font-bold text-text-alternative md:text-7xl lg:text-8xl">
+            <p className="text-5xl font-bold text-text-alternative md:text-7xl lg:text-8xl" data-aos="fade-up" data-aos-duration="1000">
               Key Statistics on Approvals and Clearances
-            </h2>
+            </p>
           </div>
           <div>
-            <p className="text-text-alternative md:text-md">
+            <p className="text-text-alternative md:text-md" data-aos="fade-up" data-aos-duration="1500">
               Stay informed with our up-to-date statistics on CMDA approvals and
               clearances. Our data-driven insights empower stakeholders to make
               informed decisions. Explore how these metrics can enhance your
               project planning and execution.
             </p>
-            <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
+            {/* <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
               <Button variant="secondary-alt">Learn More</Button>
               <Button
                 iconRight={<RxChevronRight />}
@@ -33,10 +33,10 @@ export function Stats3() {
               >
                 Get Started
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-y-8 md:grid-cols-3 md:gap-x-8 lg:gap-x-12 lg:gap-y-16">
+        <div className="grid grid-cols-1 gap-y-8 md:grid-cols-3 md:gap-x-8 lg:gap-x-12 lg:gap-y-16" data-aos="fade-left" data-aos-duration="3000">
           <div className="border-l-2 border-border-alternative pl-8">
             <p className="mb-2 text-10xl font-bold leading-[1.3] text-text-alternative md:text-[4rem] lg:text-[5rem]">
               75%

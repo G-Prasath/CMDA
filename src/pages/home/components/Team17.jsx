@@ -4,17 +4,42 @@ import { Button } from "@relume_io/relume-ui";
 import React from "react";
 import { BiLogoDribbble, BiLogoLinkedinSquare } from "react-icons/bi";
 import { FaXTwitter } from "react-icons/fa6";
+import { user } from "../../../assets/images/images";
 
 export function Team17() {
+
+  const teamMembers = [
+    {
+      imgSrc: user,
+      fullName: "Full name 1",
+      jobTitle: "Job title 1",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+    },
+    {
+      imgSrc: user,
+      fullName: "Full name 2",
+      jobTitle: "Job title 2",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+
+    },
+    {
+      imgSrc: user,
+      fullName: "Full name 3",
+      jobTitle: "Job title 3",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+
+    }
+  ];
+  
   return (
     <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 bg-primary_clr text-secondary_clr">
       <div className="container grid grid-cols-1 items-start md:grid-flow-row md:grid-cols-2 md:gap-x-12 lg:gap-x-20">
         <div className="rb-12 mb-12 max-w-lg md:mb-18 lg:mb-20">
-          <p className="mb-3 font-semibold md:mb-4">Tagline</p>
-          <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
+          <p className="mb-3 font-semibold md:mb-4" data-aos="flip-right" data-aos-duration="1000">Tagline</p>
+          <p className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl" data-aos="fade-up" data-aos-duration="1500">
             Our team
-          </h2>
-          <p className="md:text-md">
+          </p>
+          <p className="md:text-md" data-aos="flip-right" data-aos-duration="2000">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum tristique.
           </p>
@@ -25,96 +50,30 @@ export function Team17() {
           </div> */}
         </div>
         <div className="grid grid-cols-1 gap-y-12 md:gap-x-8 md:gap-y-16 lg:gap-x-12">
-          <div className="grid auto-cols-fr grid-cols-1 items-start gap-5 sm:grid-cols-[max-content_1fr] sm:gap-x-8 sm:gap-y-4">
-            <div>
-              <img
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                alt="Relume placeholder image 1"
-                className="size-20 min-h-20 min-w-20 rounded-full object-cover"
-              />
-            </div>
-            <div className="flex flex-col justify-center">
-              <div className="mb-3 md:mb-4">
-                <h5 className="text-md font-semibold md:text-lg">Full name</h5>
-                <h6 className="md:text-md">Job title</h6>
+        {teamMembers.map((member, index) => (
+            <div key={index} className="grid auto-cols-fr grid-cols-1 items-start gap-5 sm:grid-cols-[max-content_1fr] sm:gap-x-8 sm:gap-y-4">
+              <div>
+                <img
+                  src={member.imgSrc}
+                  alt={member.altText}
+                  className="size-20 min-h-20 min-w-20 rounded-full object-cover border-2 border-white p-2"
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="200"
+                />
               </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique.
-              </p>
-              <div className="mt-6 grid grid-flow-col grid-cols-[max-content] gap-[0.875rem] self-start">
-                <a href="#">
-                  <BiLogoLinkedinSquare className="size-6" />
-                </a>
-                <a href="#">
-                  <FaXTwitter className="size-6 p-0.5" />
-                </a>
-                <a href="#">
-                  <BiLogoDribbble className="size-6" />
-                </a>
+              <div className="flex flex-col justify-center"  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="200">
+                <div className="mb-3 md:mb-4">
+                  <p className="text-md font-semibold md:text-lg">{member.fullName}</p>
+                  <p className="md:text-md">{member.jobTitle}</p>
+                </div>
+                <p>{member.description}</p>
+
               </div>
             </div>
-          </div>
-          <div className="grid auto-cols-fr grid-cols-1 items-start gap-5 sm:grid-cols-[max-content_1fr] sm:gap-x-8 sm:gap-y-4">
-            <div>
-              <img
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                alt="Relume placeholder image 1"
-                className="size-20 min-h-20 min-w-20 rounded-full object-cover"
-              />
-            </div>
-            <div className="flex flex-col justify-center">
-              <div className="mb-3 md:mb-4">
-                <h5 className="text-md font-semibold md:text-lg">Full name</h5>
-                <h6 className="md:text-md">Job title</h6>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique.
-              </p>
-              <div className="mt-6 grid grid-flow-col grid-cols-[max-content] gap-[0.875rem] self-start">
-                <a href="#">
-                  <BiLogoLinkedinSquare className="size-6" />
-                </a>
-                <a href="#">
-                  <FaXTwitter className="size-6 p-0.5" />
-                </a>
-                <a href="#">
-                  <BiLogoDribbble className="size-6" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="grid auto-cols-fr grid-cols-1 items-start gap-5 sm:grid-cols-[max-content_1fr] sm:gap-x-8 sm:gap-y-4">
-            <div>
-              <img
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                alt="Relume placeholder image 1"
-                className="size-20 min-h-20 min-w-20 rounded-full object-cover"
-              />
-            </div>
-            <div className="flex flex-col justify-center">
-              <div className="mb-3 md:mb-4">
-                <h5 className="text-md font-semibold md:text-lg">Full name</h5>
-                <h6 className="md:text-md">Job title</h6>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique.
-              </p>
-              <div className="mt-6 grid grid-flow-col grid-cols-[max-content] gap-[0.875rem] self-start">
-                <a href="#">
-                  <BiLogoLinkedinSquare className="size-6" />
-                </a>
-                <a href="#">
-                  <FaXTwitter className="size-6 p-0.5" />
-                </a>
-                <a href="#">
-                  <BiLogoDribbble className="size-6" />
-                </a>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>

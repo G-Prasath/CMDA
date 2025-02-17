@@ -62,15 +62,6 @@ export function Navbar2() {
             />
           </Link>
           <div className="flex items-center gap-4 lg:hidden">
-            <div>
-              <Button
-                className="w-full px-4 py-1"
-                title="Get a Quote"
-                size="sm"
-              >
-                Get a Quote
-              </Button>
-            </div>
             <button
               className="-mr-2 flex size-12 flex-col items-center justify-center lg:hidden"
               onClick={useActive.toggleMobileMenu}
