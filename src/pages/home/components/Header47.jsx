@@ -16,7 +16,7 @@ export function Header47() {
           </div>
           <div className="w-full max-w-lg">
             <p className="md:text-md" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
-            CMDA CDC approval process may be complex, but we are here to simplify it. Our expert team provides all the guidance and resources you need to ensure a simple approval journey.
+            CMDA DTCP approval process may be complex, but we are here to simplify it. Our expert team provides all the guidance and resources you need to ensure a simple approval journey.
             </p>
             {/* <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
               <Button title="Get Started">Get Started</Button>

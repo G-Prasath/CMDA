@@ -18,7 +18,7 @@ export function Faq5() {
             FAQs
           </h2>
           <p className="md:text-md">
-            Find answers to your questions about CMDA CDC approvals and our
+            Find answers to your questions about CMDA DTCP approvals and our
             services.
           </p>
         </div>
@@ -36,10 +36,10 @@ export function Faq5() {
               }
               className="md:py-5 md:text-md [&[data-state=open]>svg]:rotate-45"
             >
-              What is CMDA CDC?
+              What is CMDA DTCP?
             </AccordionTrigger>
             <AccordionContent className="md:pb-6">
-              CMDA CDC stands for the Centralized Management and Development
+              CMDA DTCP stands for the Centralized Management and Development
               Authority's Construction Development Code. It ensures that
               construction projects comply with safety and environmental
               standards. Understanding these regulations is crucial for
@@ -59,7 +59,7 @@ export function Faq5() {
               How to apply?
             </AccordionTrigger>
             <AccordionContent className="md:pb-6">
-              To apply for CMDA CDC approval, submit your project plans along
+              To apply for CMDA DTCP approval, submit your project plans along
               with the required documentation. Our team will guide you through
               the process to ensure compliance. You can start your application
               online through our website.
@@ -78,7 +78,7 @@ export function Faq5() {
               What are the fees?
             </AccordionTrigger>
             <AccordionContent className="md:pb-6">
-              Fees for CMDA CDC approvals vary based on project size and
+              Fees for CMDA DTCP approvals vary based on project size and
               complexity. We offer competitive pricing to ensure our services
               are accessible. For a detailed quote, please contact our team.
             </AccordionContent>

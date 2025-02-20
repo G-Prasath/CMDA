@@ -8,18 +8,18 @@ import { Card } from "../../common/Cards";
 export function Layout250() {
   const cardsData = [
     {
-      img: "https://plus.unsplash.com/premium_photo-1706559779943-fb5c25270bcc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      img: "/Home/blog-1.avif",
       title:
         "How to Get CMDA approval for your property: a simple guide",
       desc: "If you are planning to build or develop property in Chennai, it is necessary to have CMDA (Chennai Metropolitan Development Authority). This is an important step to ensure that your project follows all the rules and regulations set by the city. Let's break this process and see how you can get approval without any problems.",
     },
     {
-      img: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=2068&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      img: "/Home/blog-2.avif",
       title: "What is CMDA approval, and why is it important?",
       desc: "Any construction project in Chennai requires CMDA approval. This approval ensures that your building follows the city's rules, such as safety standards and environmental laws. Without it, you can endure legal problems or even be asked to demolish the building.",
     },
     {
-      img: "https://plus.unsplash.com/premium_photo-1661413166847-47e3ecc668a3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      img: "/Home/blog-3.avif",
       title: "Why participate with us for CMDA approval?",
       desc: "Our team has extensive experience with CMDA processes and strong conditions with regulatory bodies. We ensure quick, easy approval and take care of all paperwork, so you can focus on what matters most for your project. Let's easily guide you through the CMDA approval process.",
     },

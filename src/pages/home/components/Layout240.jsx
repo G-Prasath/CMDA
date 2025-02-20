@@ -26,7 +26,7 @@ export function Layout240() {
         "/Home/approvals.avif",
       title: "Approval Grants",
       desc:
-        "When reviewing and approving, CMDA CDC approval provides that your project can continue with construction",
+        "When reviewing and approving, CMDA DTCP approval provides that your project can continue with construction",
     },
   ];
 
@@ -42,7 +42,7 @@ export function Layout240() {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            Understand the CMDA CDC approval process
+            Understand the CMDA DTCP approval process
           </p>
         </div>
         <div className="grid grid-cols-1 items-start justify-center gap-y-12 md:grid-cols-3 md:gap-x-8 md:gap-y-16 lg:gap-x-12">
