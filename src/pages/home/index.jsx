@@ -6,30 +6,52 @@ import { Layout240 } from "./components/Layout240";
 import { Layout197 } from "./components/Layout197";
 import { Layout250 } from "./components/Layout250";
 import { Header15 } from "./components/Header15";
-import { Team17 } from "./components/Team17";
 import { Stats3 } from "./components/Stats3";
 import { Testimonial5 } from "./components/Testimonial5";
-import { Layout90 } from "./components/Layout90";
 import { Contact5 } from "./components/Contact5";
 import { Cta7 } from "../common/Cta7";
 import { Footer7 } from "../common/Footer7";
-
+import {Rawcnt} from "./components/Rawcnt";
+import { Whychoose } from "./components/Whychoose";
 
 export default function Page() {
   return (
     <div>
       <Navbar2 />
+
+      {/* Banner  */}
       <Header5 />
+
+      {/* About     */}
       <Header47 />
+
+      {/* Understand  */}
       <Layout240 />
+
+      {/* Except Guides  */}
       <Layout197 />
-      <Layout250 />
+
+      {/* Turuning Complex Approval  */}
       <Header15 />
-      <Team17 />
+
+      {/* quick Effictive  */}
+      <Rawcnt />
+
+      {/* Graph  */}
       <Stats3 />
+
+      {/* Testimonial  */}
       <Testimonial5 />
-      {/* <Layout90 /> */}
+
+      {/* WhyChoose  */}
+      <Whychoose />
+
+      {/* Blog  */}
+      <Layout250 />
+
+      {/* Form  */}
       <Contact5 />
+
       <Cta7 />
       <Footer7 />
     </div>

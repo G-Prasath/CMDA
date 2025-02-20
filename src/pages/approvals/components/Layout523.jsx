@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 
 export function Layout523() {
@@ -101,6 +99,7 @@ export function Layout523() {
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );

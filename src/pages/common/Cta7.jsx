@@ -14,7 +14,7 @@ export function Cta7() {
               Get in Touch with Us
             </h2>
             <p className="md:text-md">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Connect with us for smooth CMDA approval and trusted expertise 
             </p>
           </div>
         </div>

@@ -18,42 +18,32 @@ export function Layout197() {
           </div>
           <div className="order-1 md:order-2">
             <p className="mb-5 text-4xl font-bold leading-[1.2] md:mb-6 md:text-5xl lg:text-6xl" data-aos="fade-up" data-aos-duration="1000">
-              Expect Guide
+            Spontaneous Approval Process: Expert Guide to Succeed with Your Project
             </p>
-            <p className="mb-6 md:mb-8 md:text-md" data-aos="fade-up" data-aos-duration="1000">
+            {/* <p className="mb-6 md:mb-8 md:text-md" data-aos="fade-up" data-aos-duration="1000">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros elementum tristique. Duis cursus,
               mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
               libero vitae erat.
-            </p>
+            </p> */}
             <div className="grid grid-cols-1 gap-6 py-2 sm:grid-cols-2">
               <div data-aos="fade-up" data-aos-duration="1000">
-                <h6 className="mb-3 text-md font-bold leading-[1.4] md:mb-4 md:text-xl">
-                  Subheading one
-                </h6>
+                <p className="mb-3 text-md font-bold leading-[1.4] md:mb-4 md:text-xl">
+                Expertise
+                </p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse varius enim in eros.
+                Our experts provide adapted guidance, simplify the approval process and ensure complete compliance with all necessary rules.
                 </p>
               </div>
               <div data-aos="fade-up" data-aos-duration="1500">
-                <h6 className="mb-3 text-md font-bold leading-[1.4] md:mb-4 md:text-xl">
-                  Subheading two
-                </h6>
+                <p className="mb-3 text-md font-bold leading-[1.4] md:mb-4 md:text-xl">
+                Spontaneous navigation
+                </p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse varius enim in eros.
+                We manage the entire approval journey and give you a stress-free experience that keeps your business on track and moving forward.
                 </p>
               </div>
-              <div data-aos="fade-up" data-aos-duration="2000">
-                <h6 className="mb-3 text-md font-bold leading-[1.4] md:mb-4 md:text-xl">
-                  Subheading three
-                </h6>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse varius enim in eros.
-                </p>
-              </div>
+              
             </div>
           </div>
         </div>

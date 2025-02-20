@@ -10,13 +10,11 @@ export function Header5() {
       <div className="container relative z-10">
         <div className="flex max-h-[60rem] min-h-svh items-center py-16 md:py-24 lg:py-28">
           <div className="max-w-md">
-            <h1 className="mb-5 text-6xl font-bold text-text-alternative md:mb-6 md:text-9xl lg:text-10xl" data-aos="fade-up" data-aos-duration="1500">
-              Your Path to CMDA CDC Approval Starts Here
+            <h1 className="mb-5 text-2xl font-bold text-text-alternative md:mb-6 md:text-5xl lg:text-6xl" data-aos="fade-up" data-aos-duration="1500">
+            Enjoy an effortless, hassle-free CMDA CDC approval experience with [company name]
             </h1>
             <p className="text-text-alternative md:text-md" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500">
-              Welcome to our CMDA CDC Approval website, where we simplify the
-              process for you. Our expert team is dedicated to guiding you
-              through every step, ensuring a smooth and efficient experience.
+            While the CMDA CDC approval process can be complex, we make it easier. Our expert team provides guidance and resources that you must easily navigate.
             </p>
             <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
               

@@ -15,7 +15,7 @@ export function Card({data}) {
       <p className="mb-3 text-xl font-bold md:mb-4 md:text-2xl" data-aos="fade-up" data-aos-duration="1000">
         {data.title}
       </p>
-      <p data-aos="fade-up" data-aos-duration="1500">{data.desc}</p>
+      <p data-aos="fade-up" data-aos-duration="1500" className="text-justify">{data.desc}</p>
       <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8"></div>
     </div>
   );
