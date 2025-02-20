@@ -9,21 +9,21 @@ export function Layout240() {
   const cardsData = [
     {
       img:
-        "https://images.unsplash.com/photo-1542435503-956c469947f6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "/Home/preliminary.avif",
       title: "Preliminary submission",
       desc:
         "Submit the project plans and necessary documents for initial review and evaluation of CMDA.",
     },
     {
       img:
-        "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "/Home/regulatory.avif",
       title: "Regulatory Review",
       desc:
         "We handle the entire process from the evaluation presented to ensure compliance with CMDA, DTCP and environmental policy.",
     },
     {
       img:
-        "https://images.unsplash.com/photo-1542435503-956c469947f6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "/Home/approvals.avif",
       title: "Approval Grants",
       desc:
         "When reviewing and approving, CMDA CDC approval provides that your project can continue with construction",

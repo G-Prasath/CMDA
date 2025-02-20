@@ -32,7 +32,7 @@ export function Header15() {
             </p>
         <div>
           <img
-            src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="/Home/turning_complex.avif"
             className="w-full object-cover rounded-md"
             data-aos="zoom-in" data-aos-duration="2000"
             alt="Relume placeholder image"

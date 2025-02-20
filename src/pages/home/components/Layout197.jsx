@@ -9,7 +9,7 @@ export function Layout197() {
         <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:gap-x-20">
           <div className="order-2 md:order-1">
             <img
-              src="https://images.unsplash.com/photo-1648260296289-ab882814a005?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="/Home/expect_guide.avif"
               className="w-full object-cover rounded-md"
               data-aos="fade-right"
               data-aos-duration="2000"

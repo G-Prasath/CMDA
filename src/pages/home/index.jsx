@@ -11,7 +11,7 @@ import { Testimonial5 } from "./components/Testimonial5";
 import { Contact5 } from "./components/Contact5";
 import { Cta7 } from "../common/Cta7";
 import { Footer7 } from "../common/Footer7";
-import {Rawcnt} from "./components/Rawcnt";
+import Rawcnt from "./components/Rawcnt";
 import { Whychoose } from "./components/Whychoose";
 
 export default function Page() {
