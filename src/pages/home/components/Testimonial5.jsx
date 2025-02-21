@@ -1,6 +1,5 @@
 import React from "react";
 import { BiSolidStar } from "react-icons/bi";
-import { user } from "../../../assets/images/images";
 
 export function Testimonial5() {
   const testimonials = [
@@ -61,7 +60,7 @@ export function Testimonial5() {
               <div className="mt-6 flex w-full flex-col gap-3 md:mt-8 md:w-auto md:flex-row md:items-center md:gap-5">
                 <div>
                   <img
-                    src={user}
+                    src="/Home/user.png"
                     alt="Testimonial avatar 1"
                     className="size-14 min-h-14 min-w-14 rounded-full object-cover"
                   />

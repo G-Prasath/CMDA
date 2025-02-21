@@ -11,7 +11,7 @@ export function Layout249() {
     },
     {
       imgSrc:
-        "/About/",
+        "/About/DTCP_clearance.avif",
       title: "DTCP clearance",
       description:
         "Ensure complete compliance with rules for urban planning and handle the submission and approval process for DTCP permits.",

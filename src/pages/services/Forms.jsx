@@ -1,11 +1,9 @@
-"use client";
-
-import { Button, Input, Label, Textarea } from "@relume_io/relume-ui";
 import React from "react";
+import { Button, Input, Label, Textarea } from "@relume_io/relume-ui";
 import { BiEnvelope, BiMap, BiPhone } from "react-icons/bi";
 import { RxChevronRight } from "react-icons/rx";
 
-export function Contact11() {
+const Forms = () => {
   return (
     <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
@@ -15,7 +13,7 @@ export function Contact11() {
             Get in Touch
           </h2>
           <p className="md:text-md">
-            We’re here to assist you with your approvals.
+            We're here to assist you with your approvals.
           </p>
         </div>
         <div className="grid auto-cols-fr grid-cols-1 gap-x-12 gap-y-12 md:grid-cols-[1fr_1fr] md:gap-x-20 md:gap-y-16">
@@ -95,4 +93,6 @@ export function Contact11() {
       </div>
     </section>
   );
-}
+};
+
+export default Forms;

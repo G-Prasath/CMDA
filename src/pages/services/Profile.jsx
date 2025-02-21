@@ -1,33 +1,28 @@
-"use client";
-
-import { Button } from "@relume_io/relume-ui";
 import React from "react";
+import { Button } from "@relume_io/relume-ui";
+import { Link } from "react-router-dom";
 
-export function Layout1() {
+const Profile = ({data}) => {
   return (
     <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
         <div className="grid grid-cols-1 gap-y-12 md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
           <div>
-            <p className="mb-3 font-semibold md:mb-4">Tagline</p>
             <h1 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
-              Medium length section heading goes here
+              {data.title}
             </h1>
-            <p className="md:text-md">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
-              libero vitae erat.
+            <p className="md:text-md text-gray-800 text-justify">
+              {data.para}
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
-              <Button title="Button" variant="secondary">
-                Button
-              </Button>
+              <Link to="/contact-us" title="Contact Us" className="border border-black px-5 py-3 hover:bg-black hover:text-white">
+                Contact Us
+              </Link>
             </div>
           </div>
           <div>
             <img
-              src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+              src={data.img}
               className="w-full object-cover"
               alt="Relume placeholder image"
             />
@@ -36,4 +31,6 @@ export function Layout1() {
       </div>
     </section>
   );
-}
+};
+
+export default Profile;
