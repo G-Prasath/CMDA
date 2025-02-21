@@ -8,7 +8,7 @@ import Banner from "../services/Banner";
 import Forms from "../services/Forms";
 import Profile from "../services/Profile";
 import Cards from "../services/Cards";
-import WhyChoose from "../services/WhyChoose";
+import Whychoose from "../services/Whychoose";
 import Testimonial from "../services/Testimonial";
 
 import { ApprovalsData as allData } from "../../assets/data/Services";
@@ -32,7 +32,7 @@ export default function Page() {
       <Banner data={allData.Banner}/>
       <Profile data={allData.Profile}/>
       <Cards data={allData.Cards}/>
-      <WhyChoose data={allData.Whychoose}/>
+      <Whychoose data={allData.Whychoose}/>
       <Testimonial data={allData.Testimonials}/>
       <Forms/>
       <Cta7 />
