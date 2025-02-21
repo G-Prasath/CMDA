@@ -11,8 +11,8 @@ import Cards from "../services/Cards";
 import Whychoose from "../services/Whychoose";
 import Testimonial from "../services/Testimonial";
 
-import { NocData as allData } from "../../assets/data/Services";
-import { NocMeta as metaTags } from "../../assets/data/metaData";
+import { NocData as allData } from "../../assets/data/Services.js";
+import { NocMeta as metaTags } from "../../assets/data/Metadata.js";
 import { Helmet } from "react-helmet-async";
 
 

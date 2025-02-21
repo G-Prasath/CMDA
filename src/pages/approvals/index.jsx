@@ -11,8 +11,8 @@ import Cards from "../services/Cards";
 import Whychoose from "../services/Whychoose";
 import Testimonial from "../services/Testimonial";
 
-import { ApprovalsData as allData } from "../../assets/data/Services";
-import { ApprovalsMeta as metaTags } from "../../assets/data/metaData";
+import {ApprovalsData as allData} from "../../assets/data/Services.js"
+import { ApprovalsMeta as metaTags } from "../../assets/data/Metadata.js";
 import { Helmet } from "react-helmet-async";
 
 
