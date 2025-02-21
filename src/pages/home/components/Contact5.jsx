@@ -1,6 +1,4 @@
-"use client";
-
-import { Button, Checkbox, Input, Label, Textarea } from "@relume_io/relume-ui";
+import { Button, Input, Label, Textarea } from "@relume_io/relume-ui";
 import React from "react";
 import { BiEnvelope, BiMap, BiPhone } from "react-icons/bi";
 

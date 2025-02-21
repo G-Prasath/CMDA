@@ -11,10 +11,10 @@ export function Header5() {
         <div className="flex max-h-[60rem] min-h-svh items-center py-16 md:py-24 lg:py-28">
           <div className="max-w-md">
             <h1 className="mb-5 text-2xl font-bold text-text-alternative md:mb-6 md:text-5xl lg:text-6xl" data-aos="fade-up" data-aos-duration="1500">
-            Enjoy an effortless, hassle-free CMDA DTCP approval experience with [company name]
+            Get your industrial and commercial CMDA & DTCP approvals with [company name]
             </h1>
             <p className="text-text-alternative md:text-md" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500">
-            While the CMDA DTCP approval process can be complex, we make it easier. Our expert team provides guidance and resources that you must easily navigate.
+            Our experienced team ensures your industrial and commercial projects meet all regulations and enjoy a smooth, streamlined approval process.
             </p>
             <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
               

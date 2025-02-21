@@ -86,23 +86,16 @@ export const NocData = {
     },
     Whychoose : [
         {
-            title: "Why Choose Us?",
-            para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            title: "Why Choose Our NOC Approval  Services?",
+            para: "Obtaining a No Objection Certificate (NOC) is essential for smooth project execution. Our expertise in navigating regulatory requirements, accurate documentation, and efficient communication with authorities ensures a hassle-free NOC process. We provide transparent and reliable support, helping you achieve timely approvals while maintaining compliance and project timelines.",
         },
         {
-            title: "Why Choose Us?",
-            para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-            img: "/Noc/whychoose.avif",
+            title: "Seamless Coordination",
+            para: "We handle every aspect of the NOC process, from preparing documents to interacting with regulatory authorities, ensuring a streamlined approach that saves time and minimizes approval-related challenges.",
         },
         {
-            title: "Why Choose Us?",
-            para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-            img: "/Noc/whychoose.avif",
-        },
-        {
-            title: "Why Choose Us?",
-            para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-            img: "/Noc/whychoose.avif",
+            title: "Trusted Partnerships",
+            para: "We maintain strong connections with approval authorities, enabling quicker NOC clearances. Our relationships help us navigate approval processes efficiently, ensuring timely and smooth project execution",
         }
     ],
     Testimonials : [
@@ -156,24 +149,18 @@ export const ClearanceData = {
         ]
     },
     Whychoose : [
+       
         {
-            title: "Why Choose Us?",
-            para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            title: "Why Choose Our Clearance Services?",
+            para: "When it comes to clearance services, choosing the right partner makes all the difference. Our expertise, transparent processes, and strong industry connections ensure smooth and timely clearances for your projects. With a focus on compliance and efficiency, we provide end-to-end support tailored to your needs.",
         },
         {
-            title: "Why Choose Us?",
-            para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-            img: "clearancewhychoose.avif",
+            title: "Transparent Communication",
+            para: "We prioritize clear communication throughout the clearance process, providing honest updates, realistic timelines, and professional support, ensuring you are always informed and confident in every project stage.",
         },
         {
-            title: "Why Choose Us?",
-            para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-            img: "clearancewhychoose.avif",
-        },
-        {
-            title: "Why Choose Us?",
-            para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-            img: "clearancewhychoose.avif",
+            title: "Comprehensive Services",
+            para: "We manage every step of the clearance process, from assessments to approvals. Our streamlined approach saves time, ensures compliance, and keeps your projects progressing smoothly without unnecessary delays or complications.",
         }
     ],
     Testimonials : [
@@ -253,23 +240,16 @@ export const ApprovalsData = {
     },
     Whychoose : [
         {
-            title: "Why Choose Us?",
-            para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            title: "Why Choose Our Approval Services?",
+            para: "With extensive experience in CMDA approvals, we provide expert guidance through every step of the process. Our knowledgeable team ensures all regulatory requirements are met accurately, helping you avoid potential roadblocks and achieve smooth, hassle-free approvals for your commercial, or industrial projects.",
         },
         {
-            title: "Why Choose Us?",
-            para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-            img: "approvalswhychoose.avif",
+            title: "Timely Approvals",
+            para: "Our strong industry connections and strategic approach help secure CMDA approvals quickly, reducing delays, optimizing project timelines, and ensuring smooth progress from start to finish.",
         },
         {
-            title: "Why Choose Us?",
-            para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-            img: "approvalswhychoose.avif",
-        },
-        {
-            title: "Why Choose Us?",
-            para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-            img: "approvalswhychoose.avif",
+            title: "Proven Experience",
+            para: "With years of expertise in CMDA approvals, we handle complex procedures efficiently, minimizing delays, ensuring compliance, and helping you achieve your project goals seamlessly and on time.",
         }
     ],
     Testimonials : [
@@ -286,6 +266,109 @@ export const ApprovalsData = {
         {
             quote : "Impressed by the effortless process, with helpful and knowledgeable support.",
             name : "T. Singh",
+            position : "construction manager",
+        },
+    ]
+}
+
+export const StibilityData = {
+    Banner : {
+        title: "Structural Stability",
+        para: "Ensuring Structural Stability - Building Strong Foundations for Your Project's Future",
+        img: "/Stibility/Banner.avif",
+    },
+    Profile : {
+        title: "Expert land testing services for your projects ",
+        para: "In the ABC company, we offer a complete range of soil testing services to ensure safety, stability and compliance with your construction project. Our professional team provides accurate, detailed results that suit your needs. ABC Company is a reliable name in the construction industry in collaboration with MEKARK is known for distributing projects focusing on discipline, dedication and quality. The obligation of our work to morality and skill has earned us confidence in our customers in different fields. In addition, our partnership services allow us to offer extensive assessment services for land, buildings, plants and machines throughout India.",
+        img: "/Stibility/profile.avif",
+    },
+    points : [
+        {
+            title: "Soil composition analysis",
+            para: "to identify a mixture of sand, silt, soil and organic materials in the soil. "
+        },
+        {
+            title: "Moisture content testing",
+            para: "Check the water level in the soil to assess its suitability for construction. "
+        },
+        {
+            title: "Atterberg -Limit Test",
+            para: "Determine soil plasticity and behaviour under moisture conditions. Conventional test: Test soil density and barbell."
+        },
+        {
+            title: "Permeability test:",
+            para: "Evaluation is needed to drain how water easily passes through soil."
+        },
+        {
+            title: "Shear strength testing",
+            para: "Measurement of soil resistance to forces that can cause foundation failure. "
+        },
+        {
+            title: "California Bearing Ratio (CBR) Test",
+            para: "To assess the strength of soil for road base and foundation design. "
+        },
+        {
+            title: "Soil classification and index properties",
+            para: "Classification of soil types for accurate engineering analysis. "
+        },
+        {
+            title: "Consolidation and settlement tests",
+            para: "Prediction of soil compaction and potential disposal under heavy loads. "
+        },
+        {
+            title: "Triaxial tests",
+            para: "Survey of soil behaviour under various stress conditions to inform the design options."
+        },
+        {
+            title: "Corrosive test",
+            para: "Assess how the soil can affect the underground infrastructure."
+        },
+        {
+            title: "Earth's pH and chemical tests",
+            para: "Analysis of the chemical composition and pH in soil for the environment and agricultural purposes."
+        },
+        {
+            title: "Detection of environmental pollution",
+            para: "Identification of environmental toxins in the soil to ensure safety and compliance with environmental standards."
+        },
+        {
+            title: "Fertility tests:",
+            para: "Measurement of down -to -earth levels to direct agricultural practices. "
+        },
+        {
+            title: "Geosynthetic compatibility test",
+            para: "Test the effectiveness of synthetic materials used in soil stabilization. "
+        }
+        
+    ],
+    Whychoose : [
+        {
+            title: "Why Choose Our Approval Services?",
+            para: "With extensive experience in CMDA approvals, we provide expert guidance through every step of the process. Our knowledgeable team ensures all regulatory requirements are met accurately, helping you avoid potential roadblocks and achieve smooth, hassle-free approvals for your commercial, or industrial projects.",
+        },
+        {
+            title: "Timely Approvals",
+            para: "Our strong industry connections and strategic approach help secure CMDA approvals quickly, reducing delays, optimizing project timelines, and ensuring smooth progress from start to finish.",
+        },
+        {
+            title: "Proven Experience",
+            para: "With years of expertise in CMDA approvals, we handle complex procedures efficiently, minimizing delays, ensuring compliance, and helping you achieve your project goals seamlessly and on time.",
+        }
+    ],
+    Testimonials : [
+        {
+            quote : "Their commitment to structural stability made our project safe and reliable.",
+            name : "S. gupta",
+            position : "Real Estate Developer",
+        },
+        {
+            quote : "Expert guidance in structural stability kept our project secure and strong.",
+            name : "K. desai",
+            position : "civil engineer",
+        },
+        {
+            quote : "Thanks to their expertise, our project’s structural stability was flawless.",
+            name : "R.verma",
             position : "construction manager",
         },
     ]
