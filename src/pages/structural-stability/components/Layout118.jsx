@@ -7,7 +7,7 @@ export function Layout118({ data }) {
       <div className="container">
         <div className="mb-12 grid grid-cols-1 items-start justify-between gap-x-12 gap-y-5 md:mb-18 md:grid-cols-2 md:gap-x-12 md:gap-y-8 lg:mb-20 lg:gap-x-20">
           <div>
-            <p className="text-4xl font-bold leading-[1.2] md:text-5xl lg:text-6xl">
+            <p className="text-4xl font-bold leading-[1.2] md:text-5xl lg:text-6xl" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
               Our soil testing services include
             </p>
           </div>
@@ -29,9 +29,11 @@ export function Layout118({ data }) {
           </div>
         </div>
         <img
-          src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
+          src="/Stibility/soil_test.avif"
           className="w-full object-cover"
           alt="Relume placeholder image"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
         />
 
         <div

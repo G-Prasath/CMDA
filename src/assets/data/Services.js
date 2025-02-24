@@ -133,17 +133,17 @@ export const ClearanceData = {
         types: [
             {
                 title: "EIA",
-                imgSrc: "clearance1.avif",
+                imgSrc: "/clearance/eia.avif",
                 description: "Environmental Impact Assessment (EIA) is an important process that assesses the potential environmental impacts of a proposed project or development. It evaluates the socio-economic, cultural and public health effects related to it, consider both positive and negative consequences to help our EIA services. "
             },
             {
                 title: "TNPCB",
-                imgSrc: "clearance2.avif",
+                imgSrc: "/clearance/tnpcb.avif",
                 description: "[company name], we provide full help in getting TNPCB approval, including consent (CTO), consent (CTO), Dangerous Waste Authority (HWA) and environmental withdrawal (EWA). Our Turnkey Solutions manage the entire approval process and ensures that all regulatory requirements are met effectively. From beginning to end, our team takes full responsibility, provides a complete match and operational project, provides a spontaneous, trouble -free experience and ensures that your project is ready to operate to suit TNPCB rules.  "
             },
             {
                 title: "ROAD ACCESS",
-                imgSrc: "clearance3.avif",
+                imgSrc: "/clearance/road_access.avif",
                 description: "We make securing EIA, TNPCB, and road access approvals. Our team of experts ensures that your project meets all environments, regulators and infrastructure requirements, and streamlines the entire process. We perform your burden from your shoulders by handling all details with accurate and speed so you can focus on the construction of your dream project. With us you get reliable, timely approval that pursues your project evenly and efficiently. "
             }
         ]
