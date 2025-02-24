@@ -198,42 +198,42 @@ export const ApprovalsData = {
         types: [
             {
                 title: "DTCP approval",
-                imgSrc: "approvals1.avif",
+                imgSrc: "/Approvals/DTCP.avif",
                 description: "We provide specialist consultation to get DTCP approval for your residential and commercial properties. Our services ensure compliance with all necessary rules and even approval for building and layout projects."
             },
             {
                 title: "CMDA approval",
-                imgSrc: "approvals2.avif",
+                imgSrc: "/Approvals/CMDA.avif",
                 description: "We help receive CMDA approval for your projects in Chennai, and secure the city's planning and regulatory laws. From the submission of documents to final approval, we handle the entire process effectively."
             },
             {
                 title: "Corporation approval",
-                imgSrc: "approvals3.avif",
+                imgSrc: "/Approvals/CORPORATION.avif",
                 description: "Our consultation ensures the company's security approval for your building and layout projects, following local government guidelines. We guide you through the application and inspection process for quick and easy approval."
             },
             {
                 title: "RERA Registration",
-                imgSrc: "approvals4.avif",
+                imgSrc: "/Approvals/RERA.avif",
                 description: "We offer services for RERA [real estate regulatory authority] registration to ensure that your real estate projects match the rules. Our team handles all necessary papers to register and legally recognize the project under the Rera Act."
             },
             {
                 title: "DTCP Regularization",
-                imgSrc: "approvals5.avif",
+                imgSrc: "/Approvals/DTCP_REGULARISATION.avif",
                 description: "We provide expert services to regulate unauthorized constructions and ensure that your property meets DTCP guidelines, meets legal requirements and local development standards for steady approval in accordance with development standards."
             },
             {
                 title: "CMDA Regularization",
-                imgSrc: "approvals6.avif",
+                imgSrc: "/Approvals/CMDA_REGULARISATION.avif",
                 description: "We specialize in legalizing unauthorized or non-transport buildings setup services, and ensure that your property meets Chennai's development criteria and receives the necessary approval for legal compliance. "    
             },
             {
                 title: "Panchayat Approval",
-                imgSrc: "approvals6.avif",
+                imgSrc: "/Approvals/Panchayat.avif",
                 description: "We provide specialist help to get Panchayat approval for rural and semi-urban projects. Our services ensure that you’re building or design is in line with the regulatory laws for local Panchayat rules and uniform approvals. "    
             },
             {
                 title: "Land approval",
-                imgSrc: "approvals6.avif",
+                imgSrc: "/Approvals/Land_approval.avif",
                 description: "We help with available land approval procedures, and ensure that your property complies with local building code, land use rules and development norms. Our team simplifies the approval process for smooth project initiation."    
             },
         ]
