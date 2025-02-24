@@ -12,4 +12,4 @@ const ScrolltoTop = () => {
     return null;
 }
 
-export default ScrolltoTop
+export default ScrolltoTop;

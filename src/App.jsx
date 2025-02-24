@@ -11,25 +11,35 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { HelmetProvider } from "react-helmet-async";
 
+import ScrolltoTop from "./assets/hooks/ScrolltoTop";
+import { ScrollProvider } from './assets/hooks/ScrollContext';
+
+
 const App = () => {
   useEffect(() => {
     Aos.init({ once: true });
   }, []);
 
   return (
-    <HelmetProvider>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/approvals" element={<Approvals />} />
-          <Route path="/clearance" element={<Clearance />} />
-          <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="/noc" element={<Noc />} />
-          <Route path="/structural-stability" element={<StructuralStability />} />
-        </Routes>
-      </Router>
-    </HelmetProvider>
+    <ScrollProvider>
+      <HelmetProvider>
+        <Router>
+          <ScrolltoTop />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/approvals" element={<Approvals />} />
+            <Route path="/clearance" element={<Clearance />} />
+            <Route path="/contact-us" element={<ContactUs />} />
+            <Route path="/noc" element={<Noc />} />
+            <Route
+              path="/structural-stability"
+              element={<StructuralStability />}
+            />
+          </Routes>
+        </Router>
+      </HelmetProvider>
+    </ScrollProvider>
   );
 };
 

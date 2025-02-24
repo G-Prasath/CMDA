@@ -1,15 +1,18 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Button, Input, Label, Textarea } from "@relume_io/relume-ui";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { BiEnvelope, BiMap, BiPhone } from "react-icons/bi";
 import { RxChevronRight } from "react-icons/rx";
 import { validationSchema } from "../../assets/hooks/Schema";
 import { QueryForm } from "../../assets/hooks/DataPass";
+import { ScrollContext } from "../../assets/hooks/ScrollContext";
 
 const Forms = () => {
   const [loading, setLoading] = useState(false);
+  const { formElement } = useContext(ScrollContext);
+
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28" ref={formElement}>
       <div className="container">
         <div className="rb-12 mb-8 max-w-lg md:mb-12">
           <p className="mb-3 font-semibold md:mb-4">Connect</p>

@@ -14,72 +14,67 @@ export const NocData = {
         types: [
             {
                 title: "Airport NOC",
-                imgSrc: "/Noc/1.avif",
+                imgSrc: "/Noc/AIRPORT_NOC.avif",
                 description: "Get any objection certificate from the airport authority for construction near the airports, ensure compliance with air safety rules and avoid disturbances in air traffic. "
             },
             {
                 title: "Indian Air Force NOC",
-                imgSrc: "/Noc/2.avif",
+                imgSrc: "/Noc/INDIAN_AIR_FORCE.avif",
                 description: "Reserves the necessary withdrawal from the Indian Air Force for Construction Projects near the military air base, and ensures that there is no conflict with security operations or airways."
             },
             {
                 title: "Fire NOC",
-                imgSrc: "/Noc/3.avif",
+                imgSrc: "/Noc/FIRE_NOC.avif",
                 description: "Get approval of your fire service for your construction project to ensure emergency exit, fire extinguisher and other important security measures to protect life and property. "
             },
             {
                 title: "CRZ NOC",
-                imgSrc: "/Noc/4.avif",
+                imgSrc: "/Noc/CRZ_NOC.avif",
                 description: "Apply for coastal regulation area (CRZ) for construction near coastal areas to reduce environmental protection, compliance with rules and reduce the effect on coastal ecosystems. "
             },
             {
                 title: "Sewage Treatment Plant Design NOC",
-                imgSrc: "/Noc/5.avif",
+                imgSrc: "/Noc/SEWAGE_TREATMENT.avif",
                 description: "Get a clearance to connect the drainage system to the drainage department, ensure proper waste management and comply with local hygiene rules for your construction project. "
             },
             {
                 title: "PWD NOC",
-                imgSrc: "/Noc/6.avif",
-                description: "Approval of Public Works Department Safe for Construction Near Public Infrastructure such as Roads and Tools, ensure any Disruption in Existing Services and No Disruptions to Maintain Security Standards in Public Places."    
-            },
-            {
-                title: "PWD NOC",
-                imgSrc: "/Noc/6.avif",
+                imgSrc: "/Noc/PWD_NOC.avif",
                 description: "Approval of Public Works Department Safe for Construction Near Public Infrastructure such as Roads and Tools, ensure any Disruption in Existing Services and No Disruptions to Maintain Security Standards in Public Places."    
             },
             {
                 title: "Highway NOC",
-                imgSrc: "/Noc/.avif",
+                imgSrc: "/Noc/HIGHWAY_NOC.avif",
                 description: "Get withdrawal for construction projects near highways, ensure safety and adherence to environmental rules while preventing highway disruptions and ensuring safety measures."    
             },
             {
                 title: "Revenue Department NOC",
-                imgSrc: "/Noc/.avif",
+                imgSrc: "/Noc/REVENUE_DEPARTMENT_NOC.avif",
                 description: "Get NOC from the Revenue Department to confirm land ownership, land use and legal compliance. This is important to ensure the validity of land for construction projects. "    
             },
             {
                 title: "Metro Rail NOC",
-                imgSrc: "/Noc/.avif",
+                imgSrc: "/Noc/METRO_RAIL_NOC.avif",
                 description: "To obtain approval from the Metro authorities to ensure that your construction does not interfere with existing Metro rail lines, secure safe growth without interfering with metro services or infrastructure. "    
             },
             {
                 title: "Flood NOC",
-                imgSrc: "/Noc/.avif",
+                imgSrc: "/Noc/FLOOD_NOC.avif",
                 description: " Apply for a flood withdrawal to confirm that your construction is in a safe area, it includes flood prevention measures, and complies with local rules to prevent floods under heavy rain. "    
             },
             {
                 title: "Rainwater harvesting of NOC",
-                imgSrc: "/Noc/.avif",
+                imgSrc: "/Noc/RAIN_WATER_HARVESTING_NOC.avif",
                 description: "Get NOC for rainwater harvesting systems to secure water conservation laws and local environmental regulations, promote the stability and efficient use of water resources in your construction project."    
             },
             {
                 title: "Traffic NOC",
-                imgSrc: "/Noc/.avif",
+                imgSrc: "/Noc/TRAFFIC_NOC.avif",
                 description: "Get approval from the traffic authorities to ensure that your construction project does not cause traffic overload or safety problems and meets road rules."    
             },
             {
                 title: "Wet/dry land NOC",
-                imgSrc: "/Noc/.avif",
+                imgSrc: "/Noc/WET_LANDDRY_LAND.avif",
                 description: "Get clearance to confirm the classification of land in the form of wetlands or dry lands, and ensure that it is legally suitable for construction and complies with the environmental direction lines."    
             }
         ]

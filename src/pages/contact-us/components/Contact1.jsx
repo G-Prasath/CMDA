@@ -1,13 +1,15 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Button, Input, Label, Textarea } from "@relume_io/relume-ui";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { validationSchema } from "../../../assets/hooks/Schema";
 import { QueryForm } from "../../../assets/hooks/DataPass";
+import { ScrollContext } from "../../../assets/hooks/ScrollContext";
 
 export function Contact1() {
   const [loading, setLoading] = useState(false);
+  const { formElement } = useContext(ScrollContext);
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28" ref={formElement}>
       <div className="container max-w-lg">
         <div className="mx-auto mb-8 w-full max-w-lg text-center md:mb-10 lg:mb-12">
           <p

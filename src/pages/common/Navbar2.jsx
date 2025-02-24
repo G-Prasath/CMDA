@@ -1,8 +1,9 @@
 import { Button, useMediaQuery } from "@relume_io/relume-ui";
 import { AnimatePresence, motion } from "framer-motion";
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { RxChevronDown } from "react-icons/rx";
 import { Link, NavLink } from "react-router-dom";
+import { ScrollContext } from '../../assets/hooks/ScrollContext';
 
 const useRelume = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -47,6 +48,14 @@ const navbarLinks = [
 ];
 
 export function Navbar2() {
+  const { formElement } = useContext(ScrollContext);
+
+  const scrollToForm = () => {
+    if (formElement.current) {
+      formElement.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   const useActive = useRelume();
   return (
     <section
@@ -133,7 +142,7 @@ export function Navbar2() {
 
         </motion.div>
         <div className="hidden justify-self-end lg:block">
-          <Button className="px-6 py-2 font-semibold rounded-md bg-primary_clr hover:bg-primary_clr/90" title="Get a Quote" size="sm">
+          <Button onClick={scrollToForm} className="px-6 py-2 font-semibold rounded-md bg-primary_clr hover:bg-primary_clr/90" title="Get a Quote" size="sm">
             Get a Quote
           </Button>
         </div>

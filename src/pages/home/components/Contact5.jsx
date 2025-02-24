@@ -1,10 +1,12 @@
 import { Button, Input, Label, Textarea } from "@relume_io/relume-ui";
-import React from "react";
+import React, { useContext } from "react";
 import { BiEnvelope, BiMap, BiPhone } from "react-icons/bi";
+import { ScrollContext } from "../../../assets/hooks/ScrollContext";
 
 export function Contact5() {
+  const { formElement } = useContext(ScrollContext);
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 bg-primary_clr text-white">
+    <section ref={formElement} id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 bg-primary_clr text-white">
       <div className="container">
         <div className="grid grid-cols-1 items-start gap-y-12 md:grid-flow-row md:grid-cols-2 md:gap-x-12 lg:grid-flow-col lg:gap-x-20 lg:gap-y-16">
           <div>
