@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-/* html, body{
-    overflow-x: hidden;
-} */
+@media (max-width: 768px) {
+    html, body {
+      overflow-x: hidden; /* Prevent horizontal overflow */
+      max-width: 100%;
+    }
+  
+    [data-aos] {
+      overflow: hidden; /* Prevent overflow on elements with AOS animations */
+      /* Ensure elements do not exceed the viewport width */
+      box-sizing: border-box;
+    }
+  }

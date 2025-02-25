@@ -19,7 +19,7 @@ const FloatingButtons = () => {
       <Link to="tel:yourphonenumber" className="bg-primary_clr text-white p-2 rounded-md shadow-md transition duration-300 hover:bg-primary_clr-dark border border-white">
         <FaPhone size={20} className="rotate-90" />
       </Link>
-      <button onClick={scrollToForm} className="bg-thired_clr text-white p-2 rounded-md shadow-md transition duration-300 hover:bg-green-600 border border-white">
+      <button onClick={scrollToForm} className="bg-thired_clr text-white p-2 rounded-md shadow-md transition duration-300 border border-white">
         <FaQuoteRight size={20} />
       </button>
     </div>

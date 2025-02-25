@@ -12,12 +12,14 @@ import "aos/dist/aos.css";
 import { HelmetProvider } from "react-helmet-async";
 
 import ScrolltoTop from "./assets/hooks/ScrolltoTop";
-import { ScrollProvider } from './assets/hooks/ScrollContext';
-
+import { ScrollProvider } from "./assets/hooks/ScrollContext";
 
 const App = () => {
   useEffect(() => {
-    Aos.init({ once: true });
+    Aos.init({
+      once: true,
+      offset: 120, // Adjust offset to prevent overflow
+    });
   }, []);
 
   return (
