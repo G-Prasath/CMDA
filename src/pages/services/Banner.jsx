@@ -17,7 +17,7 @@ const Banner = ({data}) => {
         <img
           src={data.img}
           className="size-full object-cover"
-          alt="Relume placeholder image"
+          alt="images"
         />
         <div className="absolute inset-0 bg-black/50" />
       </div>

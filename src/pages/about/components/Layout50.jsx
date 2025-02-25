@@ -1,18 +1,20 @@
-"use client";
-
 import React from "react";
+import Reveal from "../../../assets/hooks/Reveal";
 
 export function Layout50() {
   return (
     <section id="relume" className="relative px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container relative z-10">
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-x-12 md:gap-y-8 lg:gap-x-20">
-          <p className="text-4xl font-bold leading-[1.2] text-text-alternative md:text-5xl lg:text-6xl" data-aos="fade-right" data-aos-duration="1500">
-            Key notes about CMDA Approval
-          </p>
+          <Reveal direction="left">
+            <p className="text-4xl font-bold leading-[1.2] text-text-alternative md:text-5xl lg:text-6xl">
+              Key notes about CMDA Approval
+            </p>
+          </Reveal>
           <div>
             <div className="grid grid-cols-1 gap-6 py-2 sm:grid-cols-2 sm:gap-y-8">
-              <div data-aos="fade-up" data-aos-duration="1000">
+              <Reveal direction="top">
+              <div>
                 <p className="mb-3 text-md font-bold leading-[1.4] text-text-alternative md:mb-4 md:text-xl">
                   CMDA matches the solution for each project
                 </p>
@@ -22,7 +24,9 @@ export function Layout50() {
                   land surveys.
                 </p>
               </div>
-              <div data-aos="fade-up" data-aos-duration="1500">
+              </Reveal>
+              <Reveal direction="right">
+              <div>
                 <p className="mb-3 text-md font-bold leading-[1.4] text-text-alternative md:mb-4 md:text-xl">
                   Regulatory Landscape Expert
                 </p>
@@ -32,7 +36,9 @@ export function Layout50() {
                   trouble -free approval.
                 </p>
               </div>
-              <div data-aos="fade-up" data-aos-duration="1800">
+              </Reveal>
+              <Reveal direction="bottom">
+              <div>
                 <p className="mb-3 text-md font-bold leading-[1.4] text-text-alternative md:mb-4 md:text-xl">
                   Long -term conditions
                 </p>
@@ -42,6 +48,7 @@ export function Layout50() {
                   approval is completed.
                 </p>
               </div>
+              </Reveal>
             </div>
           </div>
         </div>
@@ -50,7 +57,7 @@ export function Layout50() {
         <img
           src="/About/key_points.avif"
           className="size-full object-cover"
-          alt="Relume placeholder image"
+          alt="images"
         />
         <div className="absolute inset-0 bg-black/70" />
       </div>

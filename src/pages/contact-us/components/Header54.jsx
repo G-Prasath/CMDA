@@ -18,7 +18,7 @@ export function Header54() {
         <img
           src="/Contact/Banner.avif"
           className="size-full object-cover"
-          alt="Relume placeholder image"
+          alt="images"
         />
         <div className="absolute inset-0 bg-black/50" />
       </div>

@@ -4,6 +4,7 @@ import { Button } from "@relume_io/relume-ui";
 import React from "react";
 import { RxChevronRight } from "react-icons/rx";
 import { Card } from "../../common/Cards";
+import Reveal from "../../../assets/hooks/Reveal";
 
 export function Layout250() {
   const cardsData = [
@@ -33,9 +34,11 @@ export function Layout250() {
       <div className="container">
         <div className="mb-12 md:mb-18 lg:mb-20">
           <div className="max-w-lg">
+            <Reveal direction="top">
             <p className="text-4xl font-bold leading-[1.2] md:text-5xl lg:text-6xl"  data-aos="fade-right" data-aos-duration="1000">
              Blog
             </p>
+            </Reveal>
           </div>
         </div>
         <div className="grid grid-cols-1 items-start gap-y-12 md:grid-cols-3 md:gap-x-8 md:gap-y-16 lg:gap-x-12 h-full">

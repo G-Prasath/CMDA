@@ -31,7 +31,7 @@ export function Layout118({ data }) {
         <img
           src="/Stibility/soil_test.avif"
           className="w-full object-cover"
-          alt="Relume placeholder image"
+          alt="images"
           data-aos="zoom-in"
           data-aos-duration="1500"
         />

@@ -7,21 +7,13 @@ import Clearance from "./pages/clearance";
 import ContactUs from "./pages/contact-us";
 import Noc from "./pages/noc";
 import StructuralStability from "./pages/structural-stability";
-import Aos from "aos";
-import "aos/dist/aos.css";
 import { HelmetProvider } from "react-helmet-async";
 
 import ScrolltoTop from "./assets/hooks/ScrolltoTop";
 import { ScrollProvider } from "./assets/hooks/ScrollContext";
 
-const App = () => {
-  useEffect(() => {
-    Aos.init({
-      once: true,
-      offset: 120, // Adjust offset to prevent overflow
-    });
-  }, []);
 
+const App = () => {
   return (
     <ScrollProvider>
       <HelmetProvider>

@@ -18,7 +18,7 @@ const Whychoose = ({ data }) => {
               <img
                 src="/clearance/whychoose-1.avif"
                 className="size-full object-cover"
-                alt="Relume placeholder image"
+                alt="images"
               />
             </div>
             <div className="relative z-10">
@@ -35,7 +35,7 @@ const Whychoose = ({ data }) => {
                 <img
                   src="/clearance/whychoose-2.avif"
                   className="size-full object-cover"
-                  alt="Relume placeholder image"
+                  alt="images"
                 />
               </div>
               <div className="relative z-10 flex flex-1 flex-col justify-between">
@@ -51,7 +51,7 @@ const Whychoose = ({ data }) => {
                 <img
                   src="/clearance/whychoose-3.avif"
                   className="size-full object-cover"
-                  alt="Relume placeholder image"
+                  alt="images"
                 />
               </div>
               <div className="relative z-10 flex flex-1 flex-col justify-between">

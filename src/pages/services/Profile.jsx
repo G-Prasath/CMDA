@@ -24,7 +24,7 @@ const Profile = ({data}) => {
             <img
               src={data.img}
               className="w-full object-cover"
-              alt="Relume placeholder image"
+              alt="images"
               data-aos="zoom-in"
               data-aos-duration="1500"
             />
