@@ -1,10 +1,14 @@
 import { Button, Input, Label, Textarea } from "@relume_io/relume-ui";
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
+import { Formik, Form, Field, ErrorMessage } from "formik";
 import { BiEnvelope, BiMap, BiPhone } from "react-icons/bi";
+import { validationSchema } from "../../../assets/hooks/Schema";
+import { QueryForm } from "../../../assets/hooks/DataPass";
 import { ScrollContext } from "../../../assets/hooks/ScrollContext";
 import Reveal from "../../../assets/hooks/Reveal";
 
 export function Contact5() {
+  const [loading, setLoading] = useState(false);
   const { formElement } = useContext(ScrollContext);
   return (
     <section
@@ -44,66 +48,107 @@ export function Contact5() {
             </Reveal>
           </div>
           <Reveal direction="bottom">
-            <form className="grid grid-cols-1 grid-rows-[auto_auto] gap-6">
-              <div className="grid w-full items-center">
-                <Label htmlFor="name" className="mb-2">
-                  Name
-                </Label>
-                <Input
-                  type="text"
-                  id="name"
-                  className="text-primary_clr"
-                  autoComplete="off"
-                />
-              </div>
-              <div className="grid w-full items-center">
-                <Label htmlFor="email" className="mb-2">
-                  Email
-                </Label>
-                <Input
-                  type="email"
-                  id="email"
-                  className="text-primary_clr"
-                  autoComplete="off"
-                />
-              </div>
-              <div className="grid w-full items-center">
-                <Label htmlFor="email" className="mb-2">
-                  Phone
-                </Label>
-                <Input
-                  type="email"
-                  id="email"
-                  className="text-primary_clr"
-                  autoComplete="off"
-                />
-              </div>
-              <div className="grid w-full items-center">
-                <Label htmlFor="message" className="mb-2">
-                  Message
-                </Label>
-                <Textarea
-                  id="message"
-                  placeholder="Type your message..."
-                  className="min-h-[11.25rem] overflow-auto text-primary_clr"
-                  autoComplete="off"
-                />
-              </div>
-              {/* <div className="mb-3 flex items-center space-x-2 text-sm md:mb-4">
-              <Checkbox id="terms" />
-              <Label htmlFor="terms" className="cursor-pointer">
-                I accept the Terms
-              </Label>
-            </div> */}
-              <div>
-                <Button
-                  title="Submit"
-                  className="bg-white text-primary_clr font-semibold rounded-md"
-                >
-                  Submit
-                </Button>
-              </div>
-            </form>
+            <Formik
+              initialValues={{
+                name: "",
+                email: "",
+                phone: "",
+                message: "",
+                select: "",
+              }}
+              validationSchema={validationSchema}
+              onSubmit={async (values, { resetForm }) => {
+                setLoading(true);
+                try {
+                  const { data, error } = await QueryForm(values);
+                  resetForm();
+                } catch (error) {
+                  console.log(error);
+                } finally {
+                  setLoading(false);
+                }
+              }}
+            >
+              <Form className="grid grid-cols-1 grid-rows-[auto_auto] gap-6">
+                <div className="grid w-full items-center">
+                  <Label htmlFor="name" className="mb-2">
+                    Name
+                  </Label>
+                  <Field
+                    type="text"
+                    id="name"
+                    name="name"
+                    className="text-primary_clr"
+                    autoComplete="off"
+                    as={Input}
+                  />
+                  <ErrorMessage
+                    name="name"
+                    component="div"
+                    className="text-red-500"
+                  />
+                </div>
+                <div className="grid w-full items-center">
+                  <Label htmlFor="email" className="mb-2">
+                    Email
+                  </Label>
+                  <Field
+                    type="email"
+                    id="email"
+                    name="email"
+                    className="text-primary_clr"
+                    autoComplete="off"
+                    as={Input}
+                  />
+                  <ErrorMessage
+                    name="email"
+                    component="div"
+                    className="text-red-500"
+                  />
+                </div>
+                <div className="grid w-full items-center">
+                  <Label htmlFor="phone" className="mb-2">
+                    Phone
+                  </Label>
+                  <Field
+                    type="text"
+                    id="phone"
+                    name="phone"
+                    className="text-primary_clr"
+                    autoComplete="off"
+                    as={Input}
+                  />
+                  <ErrorMessage
+                    name="phone"
+                    component="div"
+                    className="text-red-500"
+                  />
+                </div>
+                <div className="grid w-full items-center">
+                  <Label htmlFor="message" className="mb-2">
+                    Message
+                  </Label>
+                  <Field
+                    as="textarea"
+                    id="message"
+                    name="message"
+                    placeholder="Type your message..."
+                    className="min-h-[11.25rem] overflow-auto text-primary_clr"
+                    autoComplete="off"
+                  />
+                </div>
+
+                <div>
+                  <Button
+                    title="Submit"
+                    className="bg-white text-primary_clr font-semibold rounded-md"
+                    type="submit"
+                  >
+                    Submit
+                  </Button>
+                </div>
+              </Form>
+            </Formik>
           </Reveal>
         </div>
       </div>
