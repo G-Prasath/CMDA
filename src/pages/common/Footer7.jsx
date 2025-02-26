@@ -62,6 +62,8 @@ export function Footer7() {
           </Reveal>
         </div>
       </footer>
+
+      {/* // Floating Buttons  */}
       <FloatingButtons />
     </div>
   );

@@ -15,7 +15,7 @@ const Rawcnt = () => {
             </Reveal>
           </div>
           <div className="w-full ">
-            <Reveal direction="right">
+            <Reveal direction="left">
             <p
               className="md:text-md text-justify"
             >

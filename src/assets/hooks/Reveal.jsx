@@ -5,11 +5,11 @@ const Reveal = ({ children, className, direction = "bottom" }) => {
 
   switch (direction) {
     case "left":
-      initial = { opacity: 0, x: -50 };
+      initial = { opacity: 0, x: -15 };
       animate = { opacity: 1, x: 0 };
       break;
     case "right":
-      initial = { opacity: 0, x: 50 };
+      initial = { opacity: 0, x: 15 };
       animate = { opacity: 1, x: 0 };
       break;
     case "top":

@@ -19,38 +19,41 @@ export default function Page() {
     <div>
       <Navbar2 />
 
-      {/* Banner  */}
-      <Header5 />
+      <div className="overflow-hidden">
+        {/* Banner  */}
+        <Header5 />
 
-      {/* About     */}
-      <Header47 />
+        {/* About     */}
+        <Header47 />
 
-      {/* Understand  */}
-      <Layout240 />
+        {/* Understand  */}
+        <Layout240 />
 
-      {/* Except Guides  */}
-      <Layout197 />
+        {/* Except Guides  */}
+        <Layout197 />
 
-      {/* Turuning Complex Approval  */}
-      <Header15 />
+        {/* Turuning Complex Approval  */}
+        <Header15 />
 
-      {/* quick Effictive  */}
-      <Rawcnt />
+        {/* quick Effictive  */}
+        <Rawcnt />
 
-      {/* Graph  */}
-      <Stats3 />
+        {/* Graph  */}
+        <Stats3 />
 
-      {/* Testimonial  */}
-      <Testimonial5 />
+        {/* Testimonial  */}
+        <Testimonial5 />
 
-      {/* WhyChoose  */}
-      <Whychoose />
+        {/* WhyChoose  */}
+        <Whychoose />
 
-      {/* Blog  */}
-      <Layout250 />
+        {/* Blog  */}
+        <Layout250 />
 
-      {/* Form  */}
-      <Contact5 />
+        {/* Form  */}
+        <Contact5 />
+
+      </div>
 
       <Cta7 />
       <Footer7 />
