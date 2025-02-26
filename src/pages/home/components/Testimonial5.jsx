@@ -43,9 +43,9 @@ export function Testimonial5() {
         </Reveal>
         <div className="grid grid-cols-1 gap-y-12 md:grid-cols-2 md:gap-x-8 lg:gap-16">
           {testimonials.map((testimonial, index) => (
-            <Reveal direction="left">
+            <Reveal direction="left"  key={index}>
               <div
-                key={index}
+               
                 className="flex h-full max-w-lg flex-col items-start justify-start text-left"
               >
                 <div className="mb-6 flex md:mb-8">
