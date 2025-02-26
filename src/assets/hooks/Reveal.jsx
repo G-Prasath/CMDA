@@ -28,7 +28,7 @@ const Reveal = ({ children, className, direction = "bottom" }) => {
       initial={initial}
       whileInView={animate}
       viewport={{ once: true, amount: 0.2 }}
-      transition={{ duration: 1, ease: "easeOut" }}
+      transition={{ duration: 1.2, ease: "easeOut" }}
       className={className}
     >
       {children}
