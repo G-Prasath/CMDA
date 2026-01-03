@@ -12,7 +12,7 @@ export function Header5() {
                 className="mb-5 text-2xl font-bold text-text-alternative md:mb-6 md:text-5xl lg:text-6xl"
               >
                 Get your industrial and commercial CMDA & DTCP approvals with
-                [company name]
+                Revovest Landmakers India Private Limited
               </h1>
             </Reveal>
 

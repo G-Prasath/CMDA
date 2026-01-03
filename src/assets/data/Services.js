@@ -6,7 +6,7 @@ export const NocData = {
     },
     Profile : {
         title: "Noc Services",
-        para: "[company name], we make clear the NOC process, and provide all necessary approval for your construction project, including airports, Indian Air Force, Fire, CRZ and more. Our expert team ensures complete compliance with environmental and safety standards and makes your project simplified. Whether it is flood, traffic or rainwater harvesting of NOC, we handle it with accurate and efficiency. With a deep understanding of legal and government requirements, we guarantee even approval, and ensure that your project continues without delay. Let's take care of papers so you can focus on building your dream. ",
+        para: "Revovest Landmakers India Private Limited, we make clear the NOC process, and provide all necessary approval for your construction project, including airports, Indian Air Force, Fire, CRZ and more. Our expert team ensures complete compliance with environmental and safety standards and makes your project simplified. Whether it is flood, traffic or rainwater harvesting of NOC, we handle it with accurate and efficiency. With a deep understanding of legal and government requirements, we guarantee even approval, and ensure that your project continues without delay. Let's take care of papers so you can focus on building your dream. ",
         img: "/Noc/profile.avif",
     },
     Cards : {
@@ -120,7 +120,7 @@ export const ClearanceData = {
     },
     Profile : {
         title: "Noc Services",
-        para: "[company name], we streamlining the clearance process, EIA, TNPCB, and Road access Handling approval. Our expert team ensures adherence with the rules for the environment, health and infrastructure. We manage all necessary documents and approvals effectively, and ensure a flawless experience. We are sure to handle complications, so your project lives on the track and meets all legal requirements. ",
+        para: "Revovest Landmakers India Private Limited, we streamlining the clearance process, EIA, TNPCB, and Road access Handling approval. Our expert team ensures adherence with the rules for the environment, health and infrastructure. We manage all necessary documents and approvals effectively, and ensure a flawless experience. We are sure to handle complications, so your project lives on the track and meets all legal requirements. ",
         img: "/clearance/profile.avif",
     },
     Cards : {
@@ -134,7 +134,7 @@ export const ClearanceData = {
             {
                 title: "TNPCB",
                 imgSrc: "/clearance/tnpcb.avif",
-                description: "[company name], we provide full help in getting TNPCB approval, including consent (CTO), consent (CTO), Dangerous Waste Authority (HWA) and environmental withdrawal (EWA). Our Turnkey Solutions manage the entire approval process and ensures that all regulatory requirements are met effectively. From beginning to end, our team takes full responsibility, provides a complete match and operational project, provides a spontaneous, trouble -free experience and ensures that your project is ready to operate to suit TNPCB rules.  "
+                description: "Revovest Landmakers India Private Limited, we provide full help in getting TNPCB approval, including consent (CTO), consent (CTO), Dangerous Waste Authority (HWA) and environmental withdrawal (EWA). Our Turnkey Solutions manage the entire approval process and ensures that all regulatory requirements are met effectively. From beginning to end, our team takes full responsibility, provides a complete match and operational project, provides a spontaneous, trouble -free experience and ensures that your project is ready to operate to suit TNPCB rules.  "
             },
             {
                 title: "ROAD ACCESS",

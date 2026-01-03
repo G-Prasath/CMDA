@@ -19,14 +19,14 @@ export function Header15() {
           <div>
             <Reveal direction="right">
               <p className="md:text-md text-justify">
-                [company name] - your reliable partner for CMDA approval
+                Revovest Landmakers India Private Limited - your reliable partner for CMDA approval
               </p>
             </Reveal>
           </div>
         </div>
         <Reveal direction="top">
           <p className="md:text-md text-justify mb-5">
-            [company name] specialize in obtaining all necessary approval and
+            Revovest Landmakers India Private Limited specialize in obtaining all necessary approval and
             compliance for CMDA CTE, CTOS, CDC, EWA, HWA and Road Access. We
             provide end-to-end support from design construction and agricultural
             analysis to present documents for CMDA approval. Our expert team

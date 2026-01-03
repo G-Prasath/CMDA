@@ -6,6 +6,7 @@ import Approvals from "./pages/approvals";
 import Clearance from "./pages/clearance";
 import ContactUs from "./pages/contact-us";
 import Noc from "./pages/noc";
+import Thankyou from "./pages/Thankyou";
 import StructuralStability from "./pages/structural-stability";
 import { HelmetProvider } from "react-helmet-async";
 
@@ -30,7 +31,10 @@ const App = () => {
               path="/structural-stability"
               element={<StructuralStability />}
             />
+            <Route path="/thankyou" element={<Thankyou />} />
+
           </Routes>
+
         </Router>
       </HelmetProvider>
     </ScrollProvider>

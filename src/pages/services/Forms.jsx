@@ -8,8 +8,12 @@ import { QueryForm } from "../../assets/hooks/DataPass";
 import { ScrollContext } from "../../assets/hooks/ScrollContext";
 import Reveal from "../../assets/hooks/Reveal";
 
+import { useNavigate } from "react-router-dom";
+
 const Forms = () => {
   const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
+
   const { formElement } = useContext(ScrollContext);
 
   return (
@@ -37,17 +41,19 @@ const Forms = () => {
               email: "",
               phone: "",
               message: "",
-              select: "",
             }}
             validationSchema={validationSchema}
             onSubmit={async (values, { resetForm }) => {
               setLoading(true);
               try {
+                setTimeout(() => {
+                  setLoading(false);
+                  navigate("/thankyou");
+                  resetForm();
+                }, 1000);
                 const { data, error } = await QueryForm(values);
-                resetForm();
               } catch (error) {
                 console.log(error);
-              } finally {
                 setLoading(false);
               }
             }}
@@ -107,7 +113,7 @@ const Forms = () => {
                   </div>
                   <div>
                     <Button type="submit" title="Submit" disabled={loading}>
-                      Submit
+                      {loading ? "Loading ..." : "Submit"}
                     </Button>
                   </div>
                 </Form>
@@ -117,53 +123,43 @@ const Forms = () => {
 
           <div className="mb-auto grid gap-x-4 gap-y-10 py-2 sm:grid-cols-2">
             <Reveal direction="bottom">
-            <div>
-              <div className="mb-3 md:mb-4">
-                <BiEnvelope className="size-8" />
+              <div>
+                <div className="mb-3 md:mb-4">
+                  <BiEnvelope className="size-8" />
+                </div>
+                <p className="mb-2 text-md font-bold leading-[1.4] md:text-xl">
+                  Email
+                </p>
+                <p className="mb-2">Reach us anytime at</p>
+                <a className="underline" href="#">
+                  hello@relume.io
+                </a>
               </div>
-              <p className="mb-2 text-md font-bold leading-[1.4] md:text-xl">
-                Email
-              </p>
-              <p className="mb-2">Reach us anytime at</p>
-              <a className="underline" href="#">
-                hello@relume.io
-              </a>
-            </div>
             </Reveal>
             <Reveal direction="left">
-            <div>
-              <div className="mb-3 md:mb-4">
-                <BiPhone className="size-8" />
+              <div>
+                <div className="mb-3 md:mb-4">
+                  <BiPhone className="size-8" />
+                </div>
+                <p className="mb-2 text-md font-bold leading-[1.4] md:text-xl">
+                  Phone
+                </p>
+                <p className="mb-2">Call us at</p>
+                <a className="underline" href="#">
+                  +1 (555) 000-0000
+                </a>
               </div>
-              <p className="mb-2 text-md font-bold leading-[1.4] md:text-xl">
-                Phone
-              </p>
-              <p className="mb-2">Call us at</p>
-              <a className="underline" href="#">
-                +1 (555) 000-0000
-              </a>
-            </div>
             </Reveal>
             <Reveal direction="right">
-            <div>
-              <div className="mb-3 md:mb-4">
-                <BiMap className="size-8" />
+              <div>
+                <div className="mb-3 md:mb-4">
+                  <BiMap className="size-8" />
+                </div>
+                <p className="mb-2 text-md font-bold leading-[1.4] md:text-xl">
+                  Office
+                </p>
+                <p className="mb-2">123 Sample St, Sydney NSW 2000 AU</p>
               </div>
-              <p className="mb-2 text-md font-bold leading-[1.4] md:text-xl">
-                Office
-              </p>
-              <p className="mb-2">123 Sample St, Sydney NSW 2000 AU</p>
-              <div className="mt-5 md:mt-6">
-                <Button
-                  title="Get Directions"
-                  variant="link"
-                  size="link"
-                  iconRight={<RxChevronRight />}
-                >
-                  Get Directions
-                </Button>
-              </div>
-            </div>
             </Reveal>
           </div>
         </div>

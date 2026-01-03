@@ -15,7 +15,7 @@ export function Layout16() {
             </Reveal>
             <Reveal direction="left">
             <p className="mb-5 text-base md:mb-6 md:text-md text-gray-800 text-justify" data-aos="fade-right" data-aos-duration="1500">
-            [company name] we are not only your consultant - we are your partners in changing the complex CMDA approval in complex, action -rich stages. With our expert team that guides you through each step, we make sure your project moves steadily and originally. 
+            Revovest Landmakers India Private Limited we are not only your consultant - we are your partners in changing the complex CMDA approval in complex, action -rich stages. With our expert team that guides you through each step, we make sure your project moves steadily and originally. 
             </p>
             </Reveal>
             <Reveal direction="left">

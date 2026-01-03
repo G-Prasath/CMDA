@@ -24,7 +24,7 @@ export function Layout201() {
             </Reveal>
             <Reveal direction="bottom">
               <p className="mb-6 md:mb-8 md:text-md text-justify text-gray-700">
-                [company name], we have a vision to simplify the complex CMDA
+                Revovest Landmakers India Private Limited, we have a vision to simplify the complex CMDA
                 approval process for developers, builders and landowners. Our
                 expert team provides analogy advice and ensures a simple and
                 effective approval experience. We focus on solving unique

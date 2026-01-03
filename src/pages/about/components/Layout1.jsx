@@ -22,7 +22,7 @@ export function Layout1() {
                 data-aos="fade-up"
                 data-aos-duration="1500"
               >
-                Welcome to [company name], your reliable partner for effortless
+                Welcome to Revovest Landmakers India Private Limited, your reliable partner for effortless
                 CMDA and DTCP approval services. With the experience of over a
                 decade, we help companies and individuals navigate the
                 complications of construction plans, construction permits and
@@ -40,7 +40,7 @@ export function Layout1() {
                 Our expert surveyors provide accurate real estate surveys,
                 guarantee that your land is properly measured and documented. As
                 an experienced CMDA and DTCP approval agents, we are here to
-                guide you at each stage. [company name] we offer effective,
+                guide you at each stage. Revovest Landmakers India Private Limited we offer effective,
                 reliable and trouble -free services to support your construction
                 projects. Let's take care of approval so you can focus on
                 bringing your vision into life. Trust us to offer timely and

@@ -19,7 +19,7 @@ const Meetteam = () => {
           <div className="w-full text-gray-800">
             <Reveal direction="right">
               <p className="md:text-md text-justify text-white">
-                [company name] prides itself on having a team of experts who are
+                Revovest Landmakers India Private Limited prides itself on having a team of experts who are
                 more than just professionals they are a dedicated partner in
                 your CMDA approval journey. With a passion for solving complex
                 regulatory challenges, we bring diverse competence to provide

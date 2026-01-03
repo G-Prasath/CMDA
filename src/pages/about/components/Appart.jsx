@@ -40,7 +40,7 @@ export function Appart() {
             </Reveal>
             <Reveal direction="left">
               <p className="md:text-md text-justify text-gray-700">
-                [company name] goes beyond handling cmda approval - we define
+                Revovest Landmakers India Private Limited goes beyond handling cmda approval - we define
                 the entire approval experience again. What sets us apart is our
                 personal view, deep industry expertise and commitment to
                 customer success. We focus on providing a tailor -made solution

@@ -5,10 +5,12 @@ import { validationSchema } from "../../../assets/hooks/Schema";
 import { QueryForm } from "../../../assets/hooks/DataPass";
 import { ScrollContext } from "../../../assets/hooks/ScrollContext";
 import Reveal from "../../../assets/hooks/Reveal";
+import { useNavigate } from "react-router-dom";
 
 export function Contact1() {
   const [loading, setLoading] = useState(false);
   const { formElement } = useContext(ScrollContext);
+  const navigate = useNavigate();
   return (
     <section
       id="relume"
@@ -33,17 +35,19 @@ export function Contact1() {
             email: "",
             phone: "",
             message: "",
-            select: "",
           }}
           validationSchema={validationSchema}
           onSubmit={async (values, { resetForm }) => {
             setLoading(true);
             try {
+              setTimeout(() => {
+                setLoading(false);
+                navigate("/thankyou");
+                resetForm();
+              }, 1000);
               const { data, error } = await QueryForm(values);
-              resetForm();
             } catch (error) {
               console.log(error);
-            } finally {
               setLoading(false);
             }
           }}
@@ -103,7 +107,7 @@ export function Contact1() {
                 </div>
                 <div>
                   <Button type="submit" title="Submit" disabled={loading}>
-                    Submit
+                    {loading ? "Loading ..." : "Submit"}
                   </Button>
                 </div>
               </Form>

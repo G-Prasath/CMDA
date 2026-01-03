@@ -6,9 +6,11 @@ import { validationSchema } from "../../../assets/hooks/Schema";
 import { QueryForm } from "../../../assets/hooks/DataPass";
 import { ScrollContext } from "../../../assets/hooks/ScrollContext";
 import Reveal from "../../../assets/hooks/Reveal";
+import { useNavigate } from "react-router-dom";
 
 export function Contact5() {
   const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
   const { formElement } = useContext(ScrollContext);
   return (
     <section
@@ -54,17 +56,19 @@ export function Contact5() {
                 email: "",
                 phone: "",
                 message: "",
-                select: "",
               }}
               validationSchema={validationSchema}
               onSubmit={async (values, { resetForm }) => {
                 setLoading(true);
                 try {
+                  setTimeout(() => {
+                    setLoading(false);
+                    navigate("/thankyou");
+                    resetForm();
+                  }, 1000);
                   const { data, error } = await QueryForm(values);
-                  resetForm();
                 } catch (error) {
                   console.log(error);
-                } finally {
                   setLoading(false);
                 }
               }}
@@ -132,7 +136,7 @@ export function Contact5() {
                     as="textarea"
                     id="message"
                     name="message"
-                    placeholder="Type your message..."
+                    placeholder="(Optional)"
                     className="min-h-[11.25rem] overflow-auto text-primary_clr"
                     autoComplete="off"
                   />
@@ -141,10 +145,11 @@ export function Contact5() {
                 <div>
                   <Button
                     title="Submit"
+                    disabled={loading}
                     className="bg-white text-primary_clr font-semibold rounded-md"
                     type="submit"
                   >
-                    Submit
+                    {loading ? "Loading ..." : "Submit"}
                   </Button>
                 </div>
               </Form>

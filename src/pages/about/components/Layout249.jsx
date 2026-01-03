@@ -43,7 +43,7 @@ export function Layout249() {
                 What We Do ?
               </p>
               <p className="md:text-md">
-                [company name], we specialize in navigating the complications of
+                Revovest Landmakers India Private Limited, we specialize in navigating the complications of
                 real estate projects to obtain approval for authorities.
               </p>
             </div>

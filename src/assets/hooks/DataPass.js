@@ -8,8 +8,8 @@ export const QueryForm = async(values) => {
     ])
   );
 
-  try {
-    const response = await axios.post("https://inbuild-mail.onrender.com/api/query-form", updatedValues);
+  try {    
+    const response = await axios.post("https://cmda-mail.onrender.com/api/enquiry-form", updatedValues);
     return { data: response.status, error: null };
   } catch (error) {
     return { data: null, error: error };
@@ -18,19 +18,19 @@ export const QueryForm = async(values) => {
 
 
 
-export const CareerFormData = async(values) => {
-  const updatedValues = Object.fromEntries(
-    Object.entries(values).map(([key, value]) => [
-      key,
-      value === "" ? "N/A" : value,
-    ])
-  );
-  try {
-    const response = await axios.post("https://inbuild-mail.onrender.com/api/career-form", updatedValues,  {headers: {
-      'Content-Type': 'multipart/form-data'
-    }});
-    return { data: response.status, error: null };
-  } catch (error) {
-    return { data: null, error: error };
-  }
-}
+// export const CareerFormData = async(values) => {
+//   const updatedValues = Object.fromEntries(
+//     Object.entries(values).map(([key, value]) => [
+//       key,
+//       value === "" ? "N/A" : value,
+//     ])
+//   );
+//   try {
+//     const response = await axios.post("https://inbuild-mail.onrender.com/api/career-form", updatedValues,  {headers: {
+//       'Content-Type': 'multipart/form-data'
+//     }});
+//     return { data: response.status, error: null };
+//   } catch (error) {
+//     return { data: null, error: error };
+//   }
+// }
