@@ -31,15 +31,17 @@ export function Cta7() {
         <Reveal direction="right">
           <div className="flex items-start justify-start gap-4">
             <Link
-              to="#"
+              to="https://wa.me/7823917774"
               title="Contact"
               className="bg-primary_clr text-white px-5 py-3 font-semibold rounded-md hover:bg-primary_clr/90"
+              target="_blank"
             >
               WhatsApp
             </Link>
             <Link
-              to="#"
+              to="tel:7823917774"
               title="Learn More"
+              target="_blank"
               className="border border-primary_clr text-primary_clr px-5 py-3 font-semibold rounded-md hover:bg-primary_clr hover:text-white"
             >
               Call Us

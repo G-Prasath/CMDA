@@ -1,6 +1,8 @@
 import React from "react";
 import { BiEnvelope, BiMap, BiPhone } from "react-icons/bi";
 import Reveal from "../../../assets/hooks/Reveal";
+import { Link } from "react-router-dom";
+
 
 export function Contact17() {
   return (
@@ -18,9 +20,9 @@ export function Contact17() {
               <p className="mb-5 md:mb-6">
                 We’d love to hear from you! Reach out anytime.
               </p>
-              <a className="underline" href="#">
-                hello@relume.io
-              </a>
+              <Link className="underline" to="mailto:landmakersrevovest@gmail.com">
+                  landmakersrevovest@gmail.com
+                </Link>
             </div>
           </Reveal>
           <Reveal direction="top">
@@ -35,9 +37,9 @@ export function Contact17() {
               <p className="mb-5 md:mb-6">
                 Call us for any inquiries or support.
               </p>
-              <a className="underline" href="#">
-                +1 (555) 000-0000
-              </a>
+                <Link className="underline" to="tel:7823917774">
+                  +91 78239-17774
+                </Link>
             </div>
           </Reveal>
           <Reveal direction="top">
@@ -50,9 +52,9 @@ export function Contact17() {
                 Office
               </p>
               <p className="mb-5 md:mb-6">Visit us at our headquarters.</p>
-              <a className="underline" href="#">
-                123 Sample St, Sydney NSW 2000 AU
-              </a>
+              <p className="underline">
+                No. 33/20, Ramakrishnapuram 3rd Street, West Mambalam, Chennai, Tamil Nadu, 600033
+              </p>
             </div>
           </Reveal>
         </div>

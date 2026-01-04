@@ -13,30 +13,30 @@ export function Footer7() {
         <div className="container">
           <div className="flex flex-col items-center pb-12 md:pb-18 lg:pb-20">
             <Reveal direction="top">
-              <Link to="#" className="mb-8">
+              <Link to="https://www.revovest.in/" className="mb-8">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/logo-image.svg"
+                  src="/logo.jpeg"
                   alt="Logo image"
-                  className="inline-block"
+                  className="inline-block w-[100px] mb-3"
                 />
               </Link>
             </Reveal>
             <Reveal direction="bottom">
               <ul className="grid grid-flow-row grid-cols-1 items-start justify-center justify-items-center gap-6 md:grid-flow-col md:grid-cols-[max-content] md:justify-center md:justify-items-start">
                 <li className="font-semibold">
-                  <Link to="#">Home Page</Link>
+                  <Link to="https://www.revovest.in/">Home Page</Link>
                 </li>
                 <li className="font-semibold">
-                  <Link to="#">About Us</Link>
+                  <Link to="/about">About Us</Link>
                 </li>
                 <li className="font-semibold">
-                  <Link to="#">Approvals Info</Link>
+                  <Link to="/approvals">Approvals Info</Link>
                 </li>
                 <li className="font-semibold">
-                  <Link to="#">Clearance Process</Link>
+                  <Link to="/clearance">Clearance Process</Link>
                 </li>
                 <li className="font-semibold">
-                  <Link to="#">Contact Us</Link>
+                  <Link to="/contact-us">Contact Us</Link>
                 </li>
               </ul>
             </Reveal>

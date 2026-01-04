@@ -6,7 +6,7 @@ import { validationSchema } from "../../../assets/hooks/Schema";
 import { QueryForm } from "../../../assets/hooks/DataPass";
 import { ScrollContext } from "../../../assets/hooks/ScrollContext";
 import Reveal from "../../../assets/hooks/Reveal";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export function Contact5() {
   const [loading, setLoading] = useState(false);
@@ -36,15 +36,15 @@ export function Contact5() {
               <div className="grid grid-cols-1 gap-4 py-2">
                 <div className="flex items-center gap-4">
                   <BiEnvelope className="size-6 flex-none" />
-                  <p>hello@relume.io</p>
+                  <Link to="mailto:landmakersrevovest@gmail.com" target="_blank">landmakersrevovest@gmail.com</Link>
                 </div>
                 <div className="flex items-center gap-4">
                   <BiPhone className="size-6 flex-none" />
-                  <p>+1 (555) 000-0000</p>
+                  <Link to="tel:+917823917774" target="_blank">+91 78239 17774</Link>
                 </div>
                 <div className="flex items-center gap-4">
                   <BiMap className="size-6 flex-none" />
-                  <p>123 Sample St, Sydney NSW 2000 AU</p>
+                  <p>No. 33/20, Ramakrishnapuram 3rd Street, West Mambalam, Chennai, Tamil Nadu, 600033</p>
                 </div>
               </div>
             </Reveal>

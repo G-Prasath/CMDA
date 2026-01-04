@@ -26,7 +26,7 @@ const Thankyou = () => {
         {/* Company Logo */}
         <div className="mb-6">
           <img
-            src={`/Home/logo.png`}
+            src="/logo.jpeg"
             alt="Company Logo"
             className="mx-auto w-24 h-24 object-contain"
           />

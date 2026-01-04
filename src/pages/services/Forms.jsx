@@ -8,7 +8,7 @@ import { QueryForm } from "../../assets/hooks/DataPass";
 import { ScrollContext } from "../../assets/hooks/ScrollContext";
 import Reveal from "../../assets/hooks/Reveal";
 
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Forms = () => {
   const [loading, setLoading] = useState(false);
@@ -131,9 +131,9 @@ const Forms = () => {
                   Email
                 </p>
                 <p className="mb-2">Reach us anytime at</p>
-                <a className="underline" href="#">
-                  hello@relume.io
-                </a>
+                <Link className="underline" to="mailto:landmakersrevovest@gmail.com">
+                  landmakersrevovest@gmail.com
+                </Link>
               </div>
             </Reveal>
             <Reveal direction="left">
@@ -145,9 +145,9 @@ const Forms = () => {
                   Phone
                 </p>
                 <p className="mb-2">Call us at</p>
-                <a className="underline" href="#">
-                  +1 (555) 000-0000
-                </a>
+                <Link className="underline" to="tel:7823917774">
+                  +91 78239-17774
+                </Link>
               </div>
             </Reveal>
             <Reveal direction="right">
@@ -158,7 +158,7 @@ const Forms = () => {
                 <p className="mb-2 text-md font-bold leading-[1.4] md:text-xl">
                   Office
                 </p>
-                <p className="mb-2">123 Sample St, Sydney NSW 2000 AU</p>
+                <p className="mb-2">No. 33/20, Ramakrishnapuram 3rd Street, West Mambalam, Chennai, Tamil Nadu, 600033</p>
               </div>
             </Reveal>
           </div>
