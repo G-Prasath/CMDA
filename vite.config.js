@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     react(),
     createSitemap({
-      hostname: 'https://www.yourwebsite.com/', 
+      hostname: 'https://www.revovest.in/', 
       dynamicRoutes: [ 
         '/about', 
         '/noc', 
