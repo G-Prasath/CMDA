@@ -16,9 +16,19 @@ import { Footer7 } from "../common/Footer7";
 import Meetteam from "./components/Meetteam";
 import { Appart } from "./components/Appart";
 
+import { Helmet } from "react-helmet-async";
+import { AboutMeta as metaTags } from "../../assets/data/Metadata";
+
 export default function Page() {
   return (
-    <div>
+    <>
+      <Helmet>
+        <title>{metaTags.title}</title>
+        <meta name="description" content={metaTags.description} />
+        <meta name="keywords" content={metaTags.keywords} />
+        <link rel="canonical" href={metaTags.canonical} />
+      </Helmet>
+
       <Navbar2 />
 
       {/* Banner  */}
@@ -56,6 +66,6 @@ export default function Page() {
 
       <Cta7 />
       <Footer7 />
-    </div>
+    </>
   );
 }

@@ -274,7 +274,7 @@ export const StibilityData = {
     },
     Profile : {
         title: "Expert land testing services for your projects ",
-        para: "In the ABC company, we offer a complete range of soil testing services to ensure safety, stability and compliance with your construction project. Our professional team provides accurate, detailed results that suit your needs. ABC Company is a reliable name in the construction industry in collaboration with MEKARK is known for distributing projects focusing on discipline, dedication and quality. The obligation of our work to morality and skill has earned us confidence in our customers in different fields. In addition, our partnership services allow us to offer extensive assessment services for land, buildings, plants and machines throughout India.",
+        para: "In the Revovest Landmakers India Private Limited, we offer a complete range of soil testing services to ensure safety, stability and compliance with your construction project. Our professional team provides accurate, detailed results that suit your needs. Revovest Landmakers India Private Limited is a reliable name in the construction industry in collaboration with MEKARK is known for distributing projects focusing on discipline, dedication and quality. The obligation of our work to morality and skill has earned us confidence in our customers in different fields. In addition, our partnership services allow us to offer extensive assessment services for land, buildings, plants and machines throughout India.",
         img: "/Stibility/profile.avif",
     },
     points : [

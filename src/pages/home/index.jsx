@@ -14,9 +14,19 @@ import { Footer7 } from "../common/Footer7";
 import Rawcnt from "./components/Rawcnt";
 import { Whychoose } from "./components/Whychoose";
 
+import { Helmet } from "react-helmet-async";
+import { HomeMeta as metaTags } from "../../assets/data/Metadata";
+
 export default function Page() {
   return (
-    <div>
+    <>
+      <Helmet>
+        <title>{metaTags.title}</title>
+        <meta name="description" content={metaTags.description} />
+        <meta name="keywords" content={metaTags.keywords} />
+        <link rel="canonical" href={metaTags.canonical} />
+      </Helmet>
+      
       <Navbar2 />
 
       <div className="overflow-hidden">
@@ -52,11 +62,10 @@ export default function Page() {
 
         {/* Form  */}
         <Contact5 />
-
       </div>
 
       <Cta7 />
       <Footer7 />
-    </div>
+    </>
   );
 }
