@@ -12,14 +12,14 @@ const Banner = ({ data }) => {
             </p>
           </Reveal>
           <Reveal direction="bottom">
-            <p
+            <h1
               className="text-text-alternative md:text-md"
               data-aos="fade-up"
               data-aos-duration="1500"
               data-aos-delay="300"
             >
               {data.para}
-            </p>
+            </h1>
           </Reveal>
         </div>
       </div>

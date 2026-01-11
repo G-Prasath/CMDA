@@ -1,7 +1,7 @@
 export const NocData = {
     Banner : {
         title: "NOC",
-        para: "Swift NOC Approvals – Your Gateway to Smooth and Compliant Projects",
+        para: "Complete NOC Approval Services for Construction Projects",
         img: "/Noc/Banner.avif",
     },
     Profile : {
@@ -115,7 +115,7 @@ export const NocData = {
 export const ClearanceData = {
     Banner : {
         title: "Clearance",
-        para: "Clearance Made Easy – Your Fast-Track to Compliance and Project Success",
+        para: "clearance process, EIA, TNPCB, and Road access Handling approval",
         img: "/clearance/Banner.avif",
     },
     Profile : {
@@ -180,7 +180,7 @@ export const ClearanceData = {
 export const ApprovalsData = {
     Banner : {
         title: "Approvals",
-        para: "Navigating the approvals process is vital for ensuring compliance and project success",
+        para: "Complete DTCP, CMDA & Building Approval Services",
         img: "/Approvals/Banner.avif",
     },
     Profile : {
@@ -269,7 +269,7 @@ export const ApprovalsData = {
 export const StibilityData = {
     Banner : {
         title: "Structural Stability",
-        para: "Ensuring Structural Stability - Building Strong Foundations for Your Project's Future",
+        para: "Expert Soil Testing Services for Safe Construction",
         img: "/Stibility/Banner.avif",
     },
     Profile : {

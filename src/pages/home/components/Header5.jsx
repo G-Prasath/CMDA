@@ -8,25 +8,23 @@ export function Header5() {
         <div className="flex items-center justify-start py-16 md:py-24 lg:py-28">
           <div className="max-w-md">
             <Reveal direction="bottom">
-              <h1
+              <p
                 className="mb-5 text-2xl font-bold text-text-alternative md:mb-6 md:text-5xl lg:text-6xl"
               >
                 Get your industrial and commercial CMDA & DTCP approvals with
                 Revovest Landmakers India Private Limited
-              </h1>
+              </p>
             </Reveal>
 
             <Reveal direction="left">
-              <p
+              <h1
                 className="text-text-alternative md:text-md"
                 data-aos="fade-up"
                 data-aos-delay="300"
                 data-aos-duration="1500"
               >
-                Our experienced team ensures your industrial and commercial
-                projects meet all regulations and enjoy a smooth, streamlined
-                approval process.
-              </p>
+                Expert CMDA & DTCP Approval Services in Chennai
+              </h1>
             </Reveal>
           </div>
         </div>
@@ -35,7 +33,7 @@ export function Header5() {
         <img
           src="/Home/Banner.avif"
           className="size-full object-cover aspect-video"
-          alt="images"
+          alt="CMDA & DTCP approvals"
         />
         <div className="absolute inset-0 bg-black/50" />
       </div>

@@ -13,10 +13,9 @@ export function Header69() {
           </p>
           </Reveal>
           <Reveal direction="bottom">
-          <p className="text-text-alternative md:text-md">
-            Your Path to Seamless CMDA Approvals - Expert Guidance, Guaranteed
-            Success
-          </p>
+          <h1 className="text-text-alternative md:text-md">
+            Your Trusted Partner for CMDA & DTCP Approvals
+          </h1>
         </Reveal>
       </div>
       <div className="absolute inset-0 z-0">

@@ -12,9 +12,9 @@ export function Layout1() {
           <div>
             <Reveal direction="left">
               <p className="mb-3 font-semibold md:mb-4">Streamlined</p>
-              <h1 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
+              <p className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
                 About our Profile
-              </h1>
+              </p>
             </Reveal>
             <Reveal direction="bottom">
               <p
