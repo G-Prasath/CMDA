@@ -43,7 +43,7 @@ export function Header15() {
             <img
               src="/Home/turning_complex.avif"
               className="w-full object-cover rounded-md"
-              alt="images"
+              alt="Turning Complex Approvals images"
             />
           </div>
         </Reveal>

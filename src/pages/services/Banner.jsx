@@ -24,7 +24,7 @@ const Banner = ({ data }) => {
         </div>
       </div>
       <div className="absolute inset-0 z-0">
-        <img src={data.img} className="size-full object-cover" alt="images" />
+        <img src={data.img} className="size-full object-cover" alt={`${data.title} Banner Image`} />
         <div className="absolute inset-0 bg-black/50" />
       </div>
     </section>

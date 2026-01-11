@@ -11,7 +11,7 @@ export function Layout201() {
               <img
                 src="/About/ou_story.avif"
                 className="w-full object-cover rounded-md"
-                alt="images"
+                alt="Our Story images"
               />
             </div>
           </Reveal>

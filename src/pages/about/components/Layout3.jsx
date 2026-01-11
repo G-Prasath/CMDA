@@ -26,7 +26,7 @@ export function Layout3() {
               <img
                 src="/About/mission.avif"
                 className="w-full object-cover rounded-md"
-                alt="images"
+                alt="Mission images"
               />
             </div>
           </Reveal>

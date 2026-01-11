@@ -22,7 +22,7 @@ export function Header69() {
         <img
           src="/About/Banner.avif"
           className="size-full object-cover"
-          alt="images"
+          alt="About Banner images"
         />
         <div className="absolute inset-0 bg-black/70" />
       </div>

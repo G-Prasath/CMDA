@@ -53,7 +53,7 @@ export function Layout1() {
               <img
                 src="/About/profile.avif"
                 className="w-full object-cover rounded-md"
-                alt="images"
+                alt="our Profile images"
               />
             </div>
           </Reveal>

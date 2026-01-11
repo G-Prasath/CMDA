@@ -8,7 +8,7 @@ export function Card({ data }) {
         <Reveal direction="top">
           <img
             src={data.img}
-            alt={data.title}
+            alt={`${data.title} Image`}
             className="duration-300 transform hover:scale-105 rounded-md"
           />
         </Reveal>

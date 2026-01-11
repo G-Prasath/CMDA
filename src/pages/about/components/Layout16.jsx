@@ -30,7 +30,7 @@ export function Layout16() {
               src="/About/success_journy.avif"
               className="w-full object-cover rounded-md"
               data-aos="zoom-in" data-aos-duration="1500"
-              alt="images"
+              alt="success journey images"
             />
           </div>
         </div>

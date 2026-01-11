@@ -21,7 +21,7 @@ const Whychoose = ({ data }) => {
               <img
                 src="/clearance/whychoose-1.avif"
                 className="size-full object-cover"
-                alt="images"
+                alt={`${data[0].title} Image`}
               />
             </div>
             <div className="relative z-10">
@@ -48,7 +48,7 @@ const Whychoose = ({ data }) => {
                 <img
                   src="/clearance/whychoose-2.avif"
                   className="size-full object-cover"
-                  alt="images"
+                  alt={`${data[1].title} Image`}
                 />
               </div>
               <div className="relative z-10 flex flex-1 flex-col justify-between">
@@ -74,7 +74,7 @@ const Whychoose = ({ data }) => {
                 <img
                   src="/clearance/whychoose-3.avif"
                   className="size-full object-cover"
-                  alt="images"
+                  alt={`${data[2].title} Image`}
                 />
               </div>
               <div className="relative z-10 flex flex-1 flex-col justify-between">

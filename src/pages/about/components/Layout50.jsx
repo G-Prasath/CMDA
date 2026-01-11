@@ -57,7 +57,7 @@ export function Layout50() {
         <img
           src="/About/key_points.avif"
           className="size-full object-cover"
-          alt="images"
+          alt="Key notes of CMDA images"
         />
         <div className="absolute inset-0 bg-black/70" />
       </div>

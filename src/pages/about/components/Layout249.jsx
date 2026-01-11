@@ -61,7 +61,7 @@ export function Layout249() {
               >
                 <img
                   src={card.imgSrc}
-                  alt="what we do"
+                  alt={`${card.title} Image`}
                   className="rounded-md"
                 />
               </div>

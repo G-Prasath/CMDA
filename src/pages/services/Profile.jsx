@@ -44,7 +44,7 @@ const Profile = ({ data }) => {
               <img
                 src={data.img}
                 className="w-full object-cover"
-                alt="images"
+                alt={`${data.title} Image`}
                 data-aos="zoom-in"
                 data-aos-duration="1500"
               />

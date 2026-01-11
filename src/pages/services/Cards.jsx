@@ -21,7 +21,7 @@ const Cards = ({ data }) => {
                 <Reveal direction="top">
                   <img
                     src={card.imgSrc}
-                    alt="Image Text"
+                    alt={`${card.title} Image`}
                     className="rounded-md"
                   />
                 </Reveal>

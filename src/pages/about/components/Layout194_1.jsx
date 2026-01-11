@@ -16,7 +16,7 @@ export function Layout194_1() {
               <img
                 src="/About/price_customers.avif"
                 className="w-full object-cover rounded-md"
-                alt="images"
+                alt="price of customer images"
               />
             </div>
           </Reveal>

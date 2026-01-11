@@ -17,7 +17,7 @@ export function Layout197() {
               className="w-full object-cover rounded-md"
               data-aos="fade-right"
               data-aos-duration="2000"
-              alt="images"
+              alt="Expertise images"
             />
           </div>
           <div className="order-1 md:order-2">

@@ -56,7 +56,7 @@ export function Appart() {
                 <div className="mb-6 md:mb-8">
                   <img
                     src={card.imgSrc}
-                    alt="what we do"
+                    alt={`${card.title} Image`}
                     className="rounded-md"
                   />
                 </div>

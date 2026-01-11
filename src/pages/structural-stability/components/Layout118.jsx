@@ -18,7 +18,7 @@ export function Layout118({ data }) {
           <img
             src="/Stibility/soil_test.avif"
             className="w-full object-cover"
-            alt="images"
+            alt="soil testing images"
           />
         </Reveal>
         <div className="grid grid-cols-1 gap-4 py-8">

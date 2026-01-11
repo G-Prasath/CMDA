@@ -16,7 +16,7 @@ export function Layout194() {
               <img
                 src="/About/vision.avif"
                 className="w-full object-cover rounded-md"
-                alt="images"
+                alt="vision images"
               />
             </div>
           </Reveal>

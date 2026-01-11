@@ -65,7 +65,7 @@ export function Stats3() {
         <img
           src="/Home/our_goals.avif"
           className="size-full object-cover"
-          alt="images"
+          alt="goal is to transform images"
         />
         <div className="absolute inset-0 bg-black/60" />
       </div>
