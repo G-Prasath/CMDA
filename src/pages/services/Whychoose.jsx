@@ -19,7 +19,7 @@ const Whychoose = ({ data }) => {
             <div className="absolute inset-0 z-0">
               <div className="absolute inset-0 bg-black/50" />
               <img
-                src="/clearance/whychoose-1.avif"
+                src="/Clearance/whychoose-1.avif"
                 className="size-full object-cover"
                 alt={`${data[0].title} Image`}
               />
@@ -46,7 +46,7 @@ const Whychoose = ({ data }) => {
               <div className="absolute inset-0 z-0">
                 <div className="absolute inset-0 bg-black/50" />
                 <img
-                  src="/clearance/whychoose-2.avif"
+                  src="/Clearance/whychoose-2.avif"
                   className="size-full object-cover"
                   alt={`${data[1].title} Image`}
                 />
@@ -72,7 +72,7 @@ const Whychoose = ({ data }) => {
               <div className="absolute inset-0 z-0">
                 <div className="absolute inset-0 bg-black/50" />
                 <img
-                  src="/clearance/whychoose-3.avif"
+                  src="/Clearance/whychoose-3.avif"
                   className="size-full object-cover"
                   alt={`${data[2].title} Image`}
                 />

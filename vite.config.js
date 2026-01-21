@@ -15,6 +15,7 @@ export default defineConfig({
         '/clearance',
         '/approvals',
         '/contact-us',
+        '/thankyou'
       ],
     }),
   ],
